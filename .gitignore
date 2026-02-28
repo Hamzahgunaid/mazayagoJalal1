@@ -9,6 +9,7 @@ yarn.lock
 out/
 .vercel/
 dist/
+*.tsbuildinfo
 
 # env & dumps & temp
 .env*

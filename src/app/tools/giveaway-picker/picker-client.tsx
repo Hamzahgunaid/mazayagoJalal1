@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
   connectAndGetManagedPages,
   FB_SCOPE_MINIMAL_PAGES,
@@ -17,6 +17,50 @@ type VideoFormat = "V_9_16" | "S_1_1" | "H_16_9";
 type PickerTab = "FACEBOOK" | "INSTAGRAM" | "TIKTOK";
 
 const INSTAGRAM_COMMENTS_SYNC_ENABLED = false;
+
+/* ── Unified animation preset labels (single source of truth) ──────────── */
+const ANIMATION_PRESETS = [
+  { value: "ROULETTE",  label: "Roulette Wheel",   preset: "ROULETTE"  as const },
+  { value: "SLOT",      label: "Slot Machine",      preset: "SLOT"      as const },
+  { value: "CARD_FLIP", label: "Card Flip Reveal",  preset: "CARD_FLIP" as const },
+] as const;
+
+const PRESET_MAP: Record<string, "ROULETTE" | "SLOT" | "CARD_FLIP"> = {
+  ROULETTE: "ROULETTE",
+  SLOT: "SLOT",
+  CARD_FLIP: "CARD_FLIP",
+  // legacy value aliases for backwards compatibility
+  COUNTDOWN: "CARD_FLIP",
+  SPINNING_NAMES: "SLOT",
+};
+
+/* ── Singleton AudioContext — avoids creating one per beep ─────────────── */
+let _audioCtx: AudioContext | null = null;
+function getAudioContext(): AudioContext | null {
+  if (typeof window === "undefined") return null;
+  if (!_audioCtx) {
+    const Ctor = window.AudioContext ?? (window as any).webkitAudioContext;
+    if (!Ctor) return null;
+    _audioCtx = new Ctor();
+  }
+  if (_audioCtx.state === "suspended") void _audioCtx.resume();
+  return _audioCtx;
+}
+
+function beep(frequency = 740, durationSec = 0.06, volume = 0.04): void {
+  const ctx = getAudioContext();
+  if (!ctx) return;
+  const osc  = ctx.createOscillator();
+  const gain = ctx.createGain();
+  osc.type = "sine";
+  osc.frequency.value = frequency;
+  gain.gain.setValueAtTime(volume, ctx.currentTime);
+  gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + durationSec);
+  osc.connect(gain);
+  gain.connect(ctx.destination);
+  osc.start();
+  osc.stop(ctx.currentTime + durationSec + 0.01);
+}
 
 function normalizeApiError(errorValue: unknown): string {
   if (!errorValue) return "Request failed";
@@ -67,6 +111,12 @@ export default function GiveawayPickerClient() {
   const logoFileRef = useRef<HTMLInputElement | null>(null);
   const contestImageFileRef = useRef<HTMLInputElement | null>(null);
   const hydratedRef = useRef(false);
+  const animationCancelRef = useRef(false);
+
+  /* Cancel animation on unmount to prevent setState on unmounted component */
+  useEffect(() => {
+    return () => { animationCancelRef.current = true; };
+  }, []);
 
   const [title, setTitle] = useState("New Giveaway Draw");
   const [winnersCount, setWinnersCount] = useState(1);
@@ -116,7 +166,9 @@ export default function GiveawayPickerClient() {
   const [facebookShowAnimationStep, setFacebookShowAnimationStep] = useState(false);
   const [facebookShowPublishStep, setFacebookShowPublishStep] = useState(false);
   const [liveDrawSpinning, setLiveDrawSpinning] = useState(false);
-  const [liveStagePhase, setLiveStagePhase] = useState<"IDLE" | "SPIN" | "REVEAL" | "CONFIRM" | "DONE">("IDLE");
+  const [liveStagePhase, setLiveStagePhase] = useState<"IDLE" | "COUNTDOWN" | "SPIN" | "REVEAL" | "CONFIRM" | "DONE">("IDLE");
+  const [liveSlotStoppedCols, setLiveSlotStoppedCols] = useState<Set<number>>(new Set());
+  const [liveCurrentWinnerIndex, setLiveCurrentWinnerIndex] = useState(0);
   const [livePhaseProgress, setLivePhaseProgress] = useState(0);
   const [liveDrawDisplayName, setLiveDrawDisplayName] = useState("");
   const [liveDrawDisplayType, setLiveDrawDisplayType] = useState<"WINNER" | "ALTERNATE">("WINNER");
@@ -370,8 +422,10 @@ export default function GiveawayPickerClient() {
     }
   };
 
-  const runOfficialDrawWithAnimation = async () => {
+  const runOfficialDrawWithAnimation = useCallback(async () => {
     if (!drawId || liveDrawSpinning) return;
+
+    animationCancelRef.current = false;
 
     const phaseByPreset = {
       ROULETTE: { intro: 2000, spin: 8000, reveal: 2000, confirm: 1000, tick: 90 },
@@ -380,22 +434,20 @@ export default function GiveawayPickerClient() {
     } as const;
 
     const phase = phaseByPreset[liveAnimationPreset];
-    const wait = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
-    const beep = (f = 740, d = 0.06) => {
-      if (typeof window === "undefined") return;
-      const Ctx = (window as any).AudioContext || (window as any).webkitAudioContext;
-      if (!Ctx) return;
-      const ctx = new Ctx();
-      const osc = ctx.createOscillator();
-      const gain = ctx.createGain();
-      osc.type = "sine";
-      osc.frequency.value = f;
-      gain.gain.value = 0.02;
-      osc.connect(gain);
-      gain.connect(ctx.destination);
-      osc.start();
-      osc.stop(ctx.currentTime + d);
-    };
+
+    /* Cancellation-aware wait — throws AbortError if component unmounts */
+    const wait = (ms: number) =>
+      new Promise<void>((resolve, reject) => {
+        const t = setTimeout(resolve, ms);
+        const check = setInterval(() => {
+          if (animationCancelRef.current) {
+            clearTimeout(t);
+            clearInterval(check);
+            reject(new DOMException("Animation cancelled", "AbortError"));
+          }
+        }, 50);
+        setTimeout(() => clearInterval(check), ms + 100);
+      });
 
     setBusy(true);
     setLiveDrawSpinning(true);
@@ -403,6 +455,9 @@ export default function GiveawayPickerClient() {
     setLiveAudit(null);
     setLiveWheelAngle(0);
     setLiveCountdown(3);
+    setLivePhaseProgress(0);
+    setLiveSlotStoppedCols(new Set());
+    setLiveCurrentWinnerIndex(0);
 
     try {
       const result = await api(`/api/tools/giveaway-draws/${drawId}/draw`, { method: "POST" });
@@ -416,42 +471,82 @@ export default function GiveawayPickerClient() {
         return;
       }
 
+      /* ── COUNTDOWN phase ─────────────────────────────────────────── */
+      setLiveStagePhase("COUNTDOWN");
       setLiveDrawDisplayType("WINNER");
       setLiveDrawDisplayName("Preparing live stage...");
       for (let count = 3; count >= 1; count -= 1) {
         setLiveCountdown(count);
-        beep(520 + count * 90, 0.1);
+        if (animationEnableSounds) beep(520 + count * 90, 0.1);
         await wait(1000);
       }
       setLiveCountdown(null);
-      beep(980, 0.12);
+      if (animationEnableSounds) beep(980, 0.12);
       await wait(Math.max(600, phase.intro - 1000));
 
+      /* ── Per-winner loop ─────────────────────────────────────────── */
       for (let i = 0; i < picked.length; i += 1) {
         const selected = picked[i];
         const selectedType = i < winnersCount ? "WINNER" : "ALTERNATE";
-        const start = Date.now();
+        const spinStart = Date.now();
 
+        setLiveCurrentWinnerIndex(i);
         setLiveStagePhase("SPIN");
-        while (Date.now() - start < phase.spin) {
-          const random = picked[Math.floor(Math.random() * picked.length)];
-          const elapsed = Date.now() - start;
-          setLiveDrawDisplayName(String(random?.display_name || "Participant"));
+        setLivePhaseProgress(Math.round(((i) / picked.length) * 70));
+        setLiveSlotStoppedCols(new Set());
+
+        /* ── SPIN phase with eased deceleration ────────────────────── */
+        const slotStoppedCols = new Set<number>();
+        const slotColumnStops = [0, 400, 800]; // staggered per-column delays
+
+        while (true) {
+          const elapsed = Date.now() - spinStart;
+          const progress = Math.min(elapsed / phase.spin, 1);
+
+          /* Ease-out cubic: fast start → gradual deceleration */
+          const easedProgress = 1 - Math.pow(1 - progress, 3);
+          const tickMs = 80 + Math.round(easedProgress * 220);
+          const isNearEnd = progress > 0.85;
+
+          /* Lock display to winner in final 15% for recognition build-up */
+          const displayName = isNearEnd
+            ? String(selected?.display_name || "Participant")
+            : String(picked[Math.floor(Math.random() * picked.length)]?.display_name || "Participant");
+
+          setLiveDrawDisplayName(displayName);
           setLiveDrawDisplayType(selectedType);
-          setLiveWheelAngle((prev) => prev + 24 + Math.random() * 22);
-          beep(680 + ((i % 5) * 60), 0.03);
-          await wait(phase.tick);
+
+          /* Wheel angle: large delta early, small near end */
+          const wheelDelta = isNearEnd ? 6 + Math.random() * 4 : 24 + Math.random() * 22;
+          setLiveWheelAngle((prev) => prev + wheelDelta);
+
+          /* Staggered slot column stop (only for SLOT preset) */
+          if (liveAnimationPreset === "SLOT") {
+            for (let col = 0; col < 3; col++) {
+              if (!slotStoppedCols.has(col) && elapsed >= phase.spin + slotColumnStops[col] - 1200) {
+                slotStoppedCols.add(col);
+                setLiveSlotStoppedCols(new Set(slotStoppedCols));
+                if (animationEnableSounds) beep(880 - col * 60, 0.08);
+              }
+            }
+          }
+
+          if (animationEnableSounds) beep(600 + (isNearEnd ? 180 : Math.random() * 120), isNearEnd ? 0.05 : 0.025);
+          if (progress >= 1) break;
+          await wait(tickMs);
         }
 
+        /* ── REVEAL phase ──────────────────────────────────────────── */
         setLiveStagePhase("REVEAL");
-        setLivePhaseProgress(78);
+        setLivePhaseProgress(Math.round(((i + 0.7) / picked.length) * 70) + 20);
         setLiveDrawDisplayName(String(selected?.display_name || "Participant"));
         setLiveDrawDisplayType(selectedType);
-        beep(selectedType === "WINNER" ? 980 : 840, 0.12);
+        if (animationEnableSounds) beep(selectedType === "WINNER" ? 980 : 840, 0.12);
         await wait(phase.reveal);
 
+        /* ── CONFIRM phase ─────────────────────────────────────────── */
         setLiveStagePhase("CONFIRM");
-        setLivePhaseProgress(92);
+        setLivePhaseProgress(Math.round(((i + 1) / picked.length) * 70) + 25);
         setLiveDrawRevealed((prev) => [...prev, { ...selected, winner_type: selectedType, rank: i + 1, revealed_at: new Date().toISOString() }]);
         if (typeof navigator !== "undefined" && "vibrate" in navigator) navigator.vibrate(selectedType === "WINNER" ? [60, 40, 120] : [50]);
         await wait(phase.confirm);
@@ -460,12 +555,16 @@ export default function GiveawayPickerClient() {
       setLiveStagePhase("DONE");
       setLivePhaseProgress(100);
       await loadDraw();
+    } catch (err: any) {
+      if (err?.name === "AbortError") return; // silently exit on cancellation
+      throw err;
     } finally {
       setLiveCountdown(null);
       setLiveDrawSpinning(false);
       setBusy(false);
     }
-  };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [drawId, liveDrawSpinning, liveAnimationPreset, winnersCount, animationEnableSounds]);
 
   const loadPublishStatus = async (id = drawId) => {
     if (!id) return;
@@ -851,9 +950,9 @@ export default function GiveawayPickerClient() {
                       <div className="text-sm font-medium">Winner Animation</div>
                       <label className="space-y-1 block"><span className="text-xs">Animation</span>
                         <select className={fieldClass} value={animationType} onChange={(e) => setAnimationType(e.target.value)} disabled={frozen}>
-                          <option value="COUNTDOWN">Countdown</option>
-                          <option value="SPINNING_NAMES">Spinning Names</option>
-                          <option value="ROULETTE">Roulette</option>
+                          {ANIMATION_PRESETS.map((p) => (
+                            <option key={p.value} value={p.value}>{p.label}</option>
+                          ))}
                         </select>
                       </label>
                       <label className="flex items-center justify-between text-sm"><span>Enable Sounds</span><input type="checkbox" checked={animationEnableSounds} onChange={(e) => setAnimationEnableSounds(e.target.checked)} disabled={frozen} /></label>
@@ -905,12 +1004,7 @@ export default function GiveawayPickerClient() {
                   <div className="rounded-xl border border-rose-200 bg-rose-50 p-3"><div className="text-rose-700">Excluded</div><div className="text-lg font-semibold text-rose-700">{summaryExcluded}</div></div>
                 </div>
                 <button className="rounded-xl px-4 py-2 text-sm font-semibold bg-lime-500 text-white hover:bg-lime-400 disabled:opacity-60" disabled={!drawId} onClick={async () => {
-                  const map: Record<string, "ROULETTE" | "SLOT" | "CARD_FLIP"> = {
-                    COUNTDOWN: "CARD_FLIP",
-                    SPINNING_NAMES: "SLOT",
-                    ROULETTE: "ROULETTE",
-                  };
-                  setLiveAnimationPreset(map[animationType] || "ROULETTE");
+                  setLiveAnimationPreset(PRESET_MAP[animationType] || "ROULETTE");
                   await runOfficialDrawWithAnimation();
                   setInstagramStep(6);
                 }}>Start</button>
@@ -1146,9 +1240,9 @@ export default function GiveawayPickerClient() {
             <div className="border-t border-white/20 pt-3 space-y-3">
               <label className="flex items-center justify-between"><span className="text-xl">Animation</span>
                 <select className="rounded-lg border border-white/40 bg-white px-3 py-1.5 text-fuchsia-700" value={animationType} onChange={(e) => setAnimationType(e.target.value)}>
-                  <option value="ROULETTE">Countdown</option>
-                  <option value="SLOT">Spinning Names</option>
-                  <option value="CARD_FLIP">Wheel of Fortune</option>
+                  {ANIMATION_PRESETS.map((p) => (
+                    <option key={p.value} value={p.value}>{p.label}</option>
+                  ))}
                 </select>
               </label>
               <label className="flex items-center justify-between"><span className="text-xl">Enable Sounds</span><input type="checkbox" checked={animationEnableSounds} onChange={(e) => setAnimationEnableSounds(e.target.checked)} /></label>
@@ -1280,14 +1374,7 @@ export default function GiveawayPickerClient() {
               <button
                 className="w-full rounded-xl bg-lime-500 px-4 py-3 text-3xl font-bold text-white hover:bg-lime-400"
                 onClick={() => {
-                  const map: Record<string, "ROULETTE" | "SLOT" | "CARD_FLIP"> = {
-                    COUNTDOWN: "CARD_FLIP",
-                    SPINNING_NAMES: "SLOT",
-                    ROULETTE: "ROULETTE",
-                    SLOT: "SLOT",
-                    CARD_FLIP: "CARD_FLIP",
-                  };
-                  setLiveAnimationPreset(map[animationType] || "ROULETTE");
+                  setLiveAnimationPreset(PRESET_MAP[animationType] || "ROULETTE");
                   setFacebookShowAnimationStep(true);
                   setFacebookReadyToStart(false);
                   setFacebookShowPublishStep(false);
@@ -1341,6 +1428,10 @@ export default function GiveawayPickerClient() {
             liveDrawDisplayType={liveDrawDisplayType}
             liveDrawDisplayName={liveDrawDisplayName}
             liveReelPool={liveReelPool}
+            liveSlotStoppedCols={liveSlotStoppedCols}
+            liveStagePhase={liveStagePhase}
+            livePhaseProgress={livePhaseProgress}
+            liveCurrentWinnerIndex={liveCurrentWinnerIndex}
             revealedWinnerCards={revealedWinnerCards}
             getWinnerAvatar={getWinnerAvatar}
             busy={busy}
