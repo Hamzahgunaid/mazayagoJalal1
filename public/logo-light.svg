@@ -1,0 +1,8 @@
+<svg width="160" height="40" viewBox="0 0 320 80" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#5B8CFF"/><stop offset="100%" stop-color="#7A3EFF"/></linearGradient></defs>
+<circle cx="40" cy="40" r="28" stroke="url(#g)" stroke-width="6" fill="none"/>
+<circle cx="66" cy="40" r="6" fill="#F9C74F"/>
+<text x="28" y="52" font-size="34" font-weight="bold" fill="#ffffff">R</text>
+<text x="90" y="52" font-size="34" font-weight="bold" fill="#ffffff">Rateverse</text>
+</svg>

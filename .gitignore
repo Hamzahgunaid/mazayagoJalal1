@@ -1,0 +1,30 @@
+@"
+# dependencies
+node_modules/
+pnpm-lock.yaml
+yarn.lock
+
+# builds
+.next/
+out/
+.vercel/
+dist/
+
+# env & dumps & temp
+.env*
+*.dump
+*.csv
+tmp/
+*.log
+
+# uploads (ارفعها لمخزن خارجي أو Git LFS)
+public/uploads/
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+"@ > .gitignore
+# archives
+*.zip
+

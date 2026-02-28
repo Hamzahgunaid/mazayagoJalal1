@@ -1,0 +1,4140 @@
+{
+  "LocaleSwitcher": {
+    "label": "Language",
+    "english": "EN",
+    "arabic": "AR"
+  },
+  "Header": {
+    "brand": {
+      "name": "MazayaGo",
+      "tagline": "Offer Studio"
+    },
+    "nav": {
+      "discover": "Discover",
+      "create": "Create offer",
+      "dashboard": "Dashboard",
+      "about": "About us",
+      "terms": "Terms",
+      "privacy": "Privacy"
+    },
+    "mobileCta": "Create"
+  },
+  "UserMenu": {
+    "signIn": "Sign in",
+    "signUp": "Create account",
+    "accountFallback": "Account",
+    "menu": {
+      "home": "Home",
+      "offers": "Offers",
+      "profile": "Profile"
+    },
+    "signOut": "Sign out",
+    "signingOut": "Signing out..."
+  },
+  "Footer": {
+    "brandName": "MazayaGo",
+    "tagline": "Interactive offers & rewards studio",
+    "nav": {
+      "offers": "Offers",
+      "launch": "Launch",
+      "dashboard": "Dashboard",
+      "about": "About"
+    },
+    "policies": {
+      "label": "Policies",
+      "hub": "Policies hub",
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "deletion": "Data deletion",
+      "cookies": "Cookie policy",
+      "contact": "Contact"
+    },
+    "legal": "© {year} MazayaGo. All rights reserved.",
+    "ctaTitle": "Ready to launch your next campaign?",
+    "ctaButton": "Start campaign"
+  },
+  "About": {
+    "title": "About MazayaGo",
+    "body": "MazayaGo is a modern studio for interactive offers and loyalty experiences."
+  },
+  "HomeSections": {
+    "search": {
+      "placeholder": "Search for a service...",
+      "button": "Search",
+      "countryPlaceholder": "All countries"
+    },
+    "categories": {
+      "title": "What are you looking for?",
+      "scrollLeft": "Scroll left",
+      "scrollRight": "Scroll right"
+    },
+    "best": {
+      "title": "Best services",
+      "ratingSummary": "Rating {rating} | R-Score {score} | {reviews} reviews",
+      "writeReview": "Write a review",
+      "openService": "Open {name}"
+    },
+    "reviews": {
+      "title": "Latest reviews",
+      "open": "Open {name}",
+      "fallbackName": "service",
+      "fallbackReview": "Review"
+    }
+  },
+  "HomeOrganizer": {
+    "hero": {
+      "badge": "For organizers",
+      "title": "MazayaGo: the control room for enterprise-grade challenges and competitions",
+      "subtitle": "Design challenges, set rules, activate channels, and monitor engagement in real time from one dashboard built for governance and participant experience.",
+      "cta": {
+        "primary": "Start your challenge",
+        "secondary": "Book a demo",
+        "tertiary": "How it works"
+      },
+      "chips": [
+        "Customizable",
+        "Clear rules",
+        "Multi-channel",
+        "Trusted outcomes"
+      ],
+      "panel": {
+        "title": "Organizer console",
+        "status": "Live now",
+        "currentTitle": "Current challenge",
+        "currentName": "Enterprise Innovation Challenge",
+        "currentNote": "Registration open through the weekend",
+        "metricsTitle": "Performance snapshot",
+        "metrics": [
+          {
+            "label": "Entries today",
+            "value": "1.2k"
+          },
+          {
+            "label": "Completion rate",
+            "value": "76%"
+          },
+          {
+            "label": "Channel activity",
+            "value": "+32%"
+          }
+        ],
+        "footerNote": "Judging setup: 3 committees • 12 judges"
+      },
+      "stats": [
+        {
+          "label": "Launch time",
+          "value": "Fast, structured rollout",
+          "description": "Ready templates with full control over rules and prizes."
+        },
+        {
+          "label": "Engagement channels",
+          "value": "Multi-channel engagement",
+          "description": "Share links, QR, and messaging to reach fast."
+        },
+        {
+          "label": "Judging",
+          "value": "Flexible winner selection",
+          "description": "Fair, scalable judging based on challenge type."
+        },
+        {
+          "label": "Data",
+          "value": "Live dashboards",
+          "description": "Track participation, progress, and results instantly."
+        }
+      ]
+    },
+    "journey": {
+      "title": "Challenge journey from creation to awarding",
+      "subtitle": "A clear path gives organizers full control at every stage.",
+      "steps": [
+        {
+          "title": "Design the challenge",
+          "description": "Pick the right type, set goals, and define participation rules."
+        },
+        {
+          "title": "Schedule & prizes",
+          "description": "Set start/end dates, winner counts, and prize packages."
+        },
+        {
+          "title": "Launch & share",
+          "description": "Publish across channels and open registration and engagement."
+        },
+        {
+          "title": "Judge & shortlist",
+          "description": "Define criteria, committees, and selection logic."
+        },
+        {
+          "title": "Announce results",
+          "description": "Reveal winners and publish summaries transparently."
+        },
+        {
+          "title": "Report & improve",
+          "description": "Read performance and improve the next experience."
+        }
+      ]
+    },
+    "capabilities": {
+      "title": "Capabilities built for organizers",
+      "subtitle": "Everything organizers need to run competitions at scale.",
+      "items": [
+        {
+          "title": "Ready challenge templates",
+          "description": "Riddles, QR, raffles, predictions, and leaderboards you can customize."
+        },
+        {
+          "title": "Full scheduling control",
+          "description": "Set windows, auto-close, and notifications."
+        },
+        {
+          "title": "Participant management",
+          "description": "Simple entry portal, progress tracking, and clear alerts."
+        },
+        {
+          "title": "Multi-level judging",
+          "description": "Committees, weighted scoring, and task distribution by type."
+        },
+        {
+          "title": "Prizes & results management",
+          "description": "Multiple prizes, visual summaries, trusted announcements."
+        },
+        {
+          "title": "Governance & transparency",
+          "description": "Decision logs, published rules, and precise permissions."
+        }
+      ]
+    },
+    "challengeTypes": {
+      "title": "Versatile challenge templates",
+      "subtitle": "Pick the right template, then tailor the rules and experience.",
+      "cta": "Create a new challenge",
+      "items": [
+        {
+          "title": "Instant raffles & prizes",
+          "description": "Fast draws with instant winner announcements.",
+          "tag": "Raffle",
+          "type": "RAFFLE"
+        },
+        {
+          "title": "QR & code challenges",
+          "description": "Codes inside products or on-site QR for quick entry.",
+          "tag": "QR / Codes",
+          "type": "QR_CODE"
+        },
+        {
+          "title": "Riddles & knowledge",
+          "description": "Interactive questions with fast scoring.",
+          "tag": "Riddle",
+          "type": "RIDDLE"
+        },
+        {
+          "title": "Leaderboards",
+          "description": "Boost competition with points and live ranking.",
+          "tag": "Leaderboard",
+          "type": "LEADERBOARD"
+        },
+        {
+          "title": "Prediction challenges",
+          "description": "Competitions based on forecasts and outcomes.",
+          "tag": "Prediction",
+          "type": "PREDICTION"
+        },
+        {
+          "title": "Multi-stage quests",
+          "description": "Layered stages and flexible scoring.",
+          "tag": "Multi-stage",
+          "type": "TREASURE_HUNT"
+        }
+      ]
+    },
+    "useCases": {
+      "title": "Best-fit challenges by organization",
+      "subtitle": "Most requested formats mapped to real organizer needs.",
+      "label": "Recommended",
+      "items": [
+        {
+          "org": "Malls & retail centers",
+          "challenge": "Instant raffles & prizes",
+          "description": "Run periodic draws to boost footfall with instant winner announcements.",
+          "tag": "Instant raffle"
+        },
+        {
+          "org": "Factories & consumer products",
+          "challenge": "Codes inside products or QR",
+          "description": "Place a code inside the package; scanning enters customers into rewards and offers.",
+          "tag": "QR / Codes"
+        },
+        {
+          "org": "Universities & education",
+          "challenge": "Riddles + leaderboards",
+          "description": "Knowledge challenges with live ranking to drive participation.",
+          "tag": "Leaderboard"
+        },
+        {
+          "org": "Events & exhibitions",
+          "challenge": "Multi-stage treasure hunt",
+          "description": "Interactive stations that keep visitors moving and engaged.",
+          "tag": "Multi-stage"
+        }
+      ]
+    },
+    "selection": {
+      "title": "Flexible judging engine at scale",
+      "subtitle": "Choose the winner selection method that fits your challenge.",
+      "chip": "Winner selection",
+      "items": [
+        {
+          "title": "Random from correct",
+          "description": "Ideal for knowledge challenges and short quizzes."
+        },
+        {
+          "title": "Fastest time",
+          "description": "Best for speed-based tasks and missions."
+        },
+        {
+          "title": "Highest score",
+          "description": "For leaderboards and point-based challenges."
+        },
+        {
+          "title": "Most collected",
+          "description": "Useful in code-collection challenges."
+        },
+        {
+          "title": "Win per code",
+          "description": "Flexible for instant incentives."
+        }
+      ]
+    },
+    "governance": {
+      "title": "Governance, transparency, and live analytics",
+      "subtitle": "MazayaGo gives organizers complete control over permissions, decisions, and real-time performance.",
+      "points": [
+        "Precise permissions for organizers and judges.",
+        "Multi-level governance for judging committees.",
+        "Publishable participation and results rules with clear follow-up.",
+        "Full documentation and traceability for entries and judging to ensure fair outcomes.",
+        "Encrypted QR codes stored securely.",
+        "Configurable identity and presence settings."
+      ],
+      "chips": [
+        "Share links",
+        "On-site QR",
+        "Messenger",
+        "Referral invites",
+        "Leaderboards",
+        "Results pages"
+      ],
+      "panel": {
+        "label": "Analytics console",
+        "status": "Live",
+        "metrics": [
+          {
+            "label": "Participation rate",
+            "value": "Trending up"
+          },
+          {
+            "label": "Completion rate",
+            "value": "Stable"
+          },
+          {
+            "label": "Top engagement",
+            "value": "QR challenges"
+          },
+          {
+            "label": "Entry channels",
+            "value": "Links + Messenger"
+          }
+        ],
+        "note": "Exportable reports and shareable summaries for partners and committees."
+      }
+    },
+    "finalCta": {
+      "title": "Launch your next challenge with confidence",
+      "subtitle": "Make challenges part of your innovation and engagement strategy on a platform built to scale.",
+      "primary": "Get started",
+      "secondary": "Talk to us",
+      "cardTitle": "MazayaGo for organizers",
+      "cardText": "Ready for innovation competitions, marketing campaigns, and community initiatives across public and private sectors.",
+      "cardItems": [
+        "Launch in days",
+        "Smooth participant experience",
+        "Multi-committee judging",
+        "Stronger media coverage"
+      ]
+    }
+  },
+  "CategoriesPage": {
+    "hero": {
+      "title": "Discover, try, write a review",
+      "subtitle": "Browse categories and services."
+    },
+    "search": {
+      "placeholder": "Search a service name...",
+      "button": "Search",
+      "countryPlaceholder": "All countries"
+    },
+    "topServices": {
+      "rating": "Rating {rating}",
+      "reviews": "{count, plural, one {# review} other {# reviews}}",
+      "none": "No services yet"
+    }
+  },
+  "Offers": {
+    "hero": {
+      "studioTag": "MazayaGo Studio",
+      "headline": "Design magnetic offers, rewards, and reality-blending missions",
+      "subheading": "MazayaGo helps brands launch interactive contests, quests, and loyalty drops in minutes. Discover what's live now or build your own experience with our creator suite.",
+      "cta": {
+        "launch": "Launch on MazayaGo",
+        "explore": "Explore catalog →"
+      },
+      "stats": {
+        "live": "Live now",
+        "endingSoon": "Ending soon",
+        "total": "Total offers"
+      }
+    },
+    "filters": {
+      "search": {
+        "label": "Search",
+        "placeholder": "Find offers..."
+      },
+      "type": {
+        "label": "Type",
+        "all": "All types"
+      },
+      "status": {
+        "label": "Status",
+        "all": "All states",
+        "active": "Active",
+        "ended": "Ended"
+      },
+      "sort": {
+        "label": "Sort by",
+        "newest": "Newest",
+        "endingSoon": "Ending soon"
+      }
+    },
+    "types": {
+      "RAFFLE": "Raffle draw",
+      "RIDDLE": "Riddle mission",
+      "QR_CODE": "QR code hunt",
+      "LEADERBOARD": "Leaderboard challenge",
+      "TREASURE_HUNT": "Treasure hunt",
+      "SCAVENGER": "Scavenger hunt",
+      "MISSION": "Mission",
+      "TRIVIA": "Trivia quiz",
+      "SURVEY": "Survey",
+      "TREASURE": "Treasure trail",
+      "UGC": "UGC showcase",
+      "REFERRAL": "Referral mission",
+      "PREDICTION": "Prediction challenge"
+    },
+    "card": {
+      "active": "Active",
+      "closed": "Closed",
+      "noDeadline": "No deadline",
+      "ended": "Ended",
+      "daysLeft": "{count, plural, one {# day left} other {# days left}}",
+      "viewDetails": "View details"
+    },
+    "empty": {
+      "title": "No offers match your filters",
+      "description": "Try resetting your search or come back later for fresh experiences from our partners."
+    },
+    "errors": {
+      "load": "Unable to load offers."
+    }
+  },
+  "ServicePage": {
+    "breadcrumbs": {
+      "home": "Home"
+    },
+    "hero": {
+      "verified": "Verified",
+      "verifiedTooltip": "This service's identity has been verified by MazayaGo.",
+      "fallbackDescription": "No description yet.",
+      "rating": "{rating}★",
+      "reviews": "{count, plural, one {# review} other {# reviews}}",
+      "rScore": "R-Score {score}",
+      "writeReview": "Write a review"
+    },
+    "submissionBanner": {
+      "success": "Your review was submitted and is awaiting moderation."
+    },
+    "reviews": {
+      "empty": "No reviews yet.",
+      "cta": "Be the first to write a review",
+      "viaQR": "Verified via QR",
+      "viaInvite": "Invite",
+      "authorFallback": "User",
+      "replyPrefix": "Reply from {name}",
+      "timestamp": "on {date}"
+    },
+    "pagination": {
+      "range": "Showing {from}–{to} of {total}",
+      "prev": "Previous",
+      "next": "Next"
+    },
+    "related": {
+      "title": "Similar services",
+      "ratingSummary": "Rating {rating} · R-Score {score} · {reviews} reviews"
+    },
+    "metrics": {
+      "ratings": "Ratings",
+      "transparency": "Transparency",
+      "days30": "30 days",
+      "days365": "365 days",
+      "rScore": "R-Score",
+      "qrShare": "QR share",
+      "inviteShare": "Invite share",
+      "flagged": "Flagged",
+      "note": "R-Score uses Bayesian prior + time-decay."
+    }
+  },
+  "OfferDetail": {
+    "loading": "Loading...",
+    "notFound": {
+      "title": "Offer not found",
+      "description": "We could not locate this offer. It may have been removed or is not yet published.",
+      "cta": "Browse all offers"
+    },
+    "dates": {
+      "notSet": "Not set"
+    },
+    "timeline": {
+      "chips": {
+        "closed": "Closed",
+        "upcoming": "Starts soon",
+        "active": "Open now"
+      },
+      "helpers": {
+        "closed": "Closed {time}",
+        "opens": "Opens {time}",
+        "closes": "Closes {time}",
+        "accepting": "Accepting entries"
+      }
+    },
+    "hero": {
+      "typeLabel": "Type",
+      "methodLabel": "Method",
+      "opensLabel": "Opens",
+      "closesLabel": "Closes",
+      "timelineLabel": "Timeline",
+      "enterCta": "Enter now",
+      "manageCta": "Manage offer",
+      "statusCta": "Contest status",
+      "hostedBy": "Hosted by",
+      "organizerLink": "View organizer profile",
+      "organizerFallback": "Contest organizer",
+      "shareHint": "Share this link with friends to invite them to participate.",
+      "openForSubmissions": "Open for submissions"
+    },
+    "share": {
+      "default": "Share challenge",
+      "copied": "Link copied",
+      "prompt": "Copy this link to share the challenge",
+      "text": "Check out this contest: {title}"
+    },
+    "shareSheet": {
+      "title": "Share this challenge",
+      "close": "Close",
+      "captionLabel": "Suggested caption",
+      "copyCaption": "Copy caption",
+      "copyLink": "Copy link",
+      "previewHelper": "You can edit the caption before publishing.",
+      "systemShare": "Share from device",
+      "facebook": "Facebook",
+      "x": "X",
+      "telegram": "Telegram",
+      "whatsapp": "WhatsApp",
+      "linkCopied": "Link copied",
+      "captionCopied": "Caption copied",
+      "shareReady": "Ready to share!",
+      "shareError": "Sharing isn't available right now.",
+      "systemUnavailable": "System share is not supported on this device.",
+      "shareCaption": {
+        "titleShort": "Join the challenge and win: {title}",
+        "titleLong": "Join the challenge and win: {title}",
+        "prize": "Prize: {prize}",
+        "deadline": "Entry closes: {deadline}",
+        "ctaShort": "Join via MazayaGo now.",
+        "ctaLong": "Join MazayaGo now and share the excitement!"
+      }
+    },
+    "gallery": {
+      "title": "Challenges gallery",
+      "emptyTitle": "Gallery coming soon",
+      "emptySubtitle": "Once the organizer shares visuals, they will appear here automatically."
+    },
+    "participationChannels": {
+      "title": "Participation channels",
+      "subtitle": "Join this contest using the available channel below.",
+      "channel": "Channel",
+      "messengerTitle": "Facebook Messenger",
+      "messengerHint": "Participate by sending your answer through Messenger.",
+      "commentsTitle": "Facebook post comments",
+      "commentsHint": "Participate by commenting on {post}.",
+      "commentPost": "Facebook post",
+      "commentPostFallback": "the linked post",
+      "openLink": "Open Messenger link",
+      "openPost": "Open Facebook post"
+    },
+    "prizes": {
+      "title": "Prize breakdown",
+      "defaultName": "Prize",
+      "type": "Type: {value}",
+      "quantity": "Quantity: {value}",
+      "value": "Value: {amount} {currency}"
+    },
+    "judgesPanel": {
+      "eyebrow": "Governance",
+      "title": "Judging committee",
+      "subtitle": "Independent reviewers assigned for this challenge.",
+      "count": "Committee size: {count}",
+      "empty": "Judges will be announced soon.",
+      "memberFallback": "Judge {index}",
+      "roles": {
+        "judge": "Judge",
+        "reviewer": "Reviewer",
+        "moderator": "Moderator",
+        "lead": "Lead judge",
+        "platform": "Platform judge",
+        "owner": "Owner judge",
+        "custom": "{role}"
+      }
+    },
+    "winners": {
+      "label": "Recent winners",
+      "headline": "Celebrating standout players",
+      "countBadge": "{count, plural, =0 {No winners yet} one {# winner} other {# winners}}",
+      "empty": "Winner names will appear here once the organizer announces them.",
+      "spotlight": "Spotlight winner",
+      "defaultName": "Winner",
+      "prizeLabel": "Prize: {prize}",
+      "idLabel": "ID: {id}",
+      "cta": "View full winners list ->"
+    },
+    "proof": {
+      "title": "Fairness proof",
+      "description": "View the draw proof used to select winners.",
+      "fields": {
+        "seed_commit": "Seed commit",
+        "seed_reveal": "Seed reveal",
+        "external_entropy": "External entropy",
+        "take": "Winners drawn",
+        "method_used": "Method"
+      }
+    },
+    "social": {
+      "title": "Social links",
+      "website": "Website",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "twitter": "X / Twitter",
+      "youtube": "YouTube",
+      "tiktok": "TikTok",
+      "whatsapp": "WhatsApp",
+      "phone": "Phone",
+      "email": "Email"
+    },
+    "enterNow": {
+      "title": "Submit your entry",
+      "closedBadge": "Submissions closed",
+      "task": {
+        "label": "Choose a task"
+      },
+      "text": {
+        "label": "Your answer",
+        "placeholder": "Share your answer, idea, or story...",
+        "helper": "The organizer reviews every submission, so make sure your response is clear and complete."
+      },
+      "mcq": {
+        "label": "Select one answer"
+      },
+      "prediction": {
+        "title": "Prediction details",
+        "requiredHint": "Enter both team scores to confirm your pick.",
+        "optionalHint": "You can leave the scores empty if they're not required.",
+        "teamAFallback": "Team A",
+        "teamBFallback": "Team B",
+        "teamScore": "{team} goals"
+      },
+      "upload": {
+        "label": "Attach proof",
+        "helper": "Upload media that backs up your entry. Larger files can take a few seconds.",
+        "remove": "Remove",
+        "attached": "Media attached",
+        "uploading": "Uploading...",
+        "ctaVideo": "Click to upload video",
+        "ctaImage": "Click to upload image",
+        "wait": "Please wait until the upload finishes.",
+        "formatsVideo": "Supported video: MP4, MOV, AVI (max 200 MB).",
+        "formatsImage": "Supported images: JPG, PNG, HEIC (max 10 MB)."
+      },
+      "qr": {
+        "label": "QR / code value",
+        "placeholder": "Scan or paste the code here",
+        "scan": "Scan QR",
+        "stop": "Stop scan",
+        "initializing": "Preparing camera...",
+        "instruction": "Point the camera at the QR code and we'll capture it automatically."
+      },
+      "confirm": {
+        "title": "Confirm submission",
+        "description": "Your entry cannot be edited after sending. Please double-check before confirming.",
+        "confirm": "Confirm and send",
+        "cancel": "Go back"
+      },
+      "buttons": {
+        "submit": "Send entry",
+        "submitting": "Submitting..."
+      },
+      "info": {
+        "taskLabel": "Task: {task}",
+        "singleAnswer": "You may only choose one answer per participant.",
+        "multiEntry": "You can edit or submit another entry while the offer is open."
+      },
+      "messages": {
+        "mediaUploaded": "Media uploaded. Send the entry to finish.",
+        "submitSuccess": "Your entry was submitted successfully!",
+        "choicesMissing": "This task does not have options yet.",
+        "mustSelectOption": "Pick one of the available options before submitting.",
+        "invalidChoice": "That option is no longer valid. Please try again.",
+        "predictionScoresRequired": "Enter both team scores to complete your prediction.",
+        "predictionScoresInvalid": "Scores must be whole numbers greater than or equal to zero.",
+        "predictionScoreMismatch": "The score does not match the selected winner.",
+        "answerRequired": "Type your answer before submitting.",
+        "codeRequired": "Scan or enter the QR code before submitting.",
+        "uploadRequired": "Upload the required media before submitting.",
+        "infoRequired": "Provide the missing information before sending your entry.",
+        "codeInvalid": "This code doesn't match this offer. Please check it and try again.",
+        "codeUsed": "This code has already been redeemed.",
+        "codeLimitReached": "This code has reached its redemption limit.",
+        "codeExpired": "This code has expired.",
+        "taskAlreadySubmitted": "You already submitted this task.",
+        "offerInactive": "This offer isn't active right now.",
+        "offerClosed": "Entries are closed for this offer.",
+        "limitExceeded": "You've reached the maximum number of entries for this offer.",
+        "notFound": "This offer could not be found.",
+        "submitError": "We couldn't submit your entry. Please try again.",
+        "uploadError": "Upload failed. Please try again.",
+        "uploadFailed": "Upload failed."
+      },
+      "scanner": {
+        "jsQrFailed": "Could not load the QR helper.",
+        "cameraAccess": "Camera access is required to scan QR codes."
+      }
+    },
+    "entriesPanel": {
+      "defaultHeading": "My entries",
+      "defaultDescription": "Your submissions appear here as soon as you send them. Tap a card to review attachments.",
+      "loading": "Loading...",
+      "errorFallback": "We couldn't load your entries.",
+      "errorTasks": "Tasks could not be loaded.",
+      "justNow": "Just now",
+      "taskFallback": "Task {index}",
+      "taskKindFallback": "Task",
+      "taskPoints": "{points} points",
+      "taskEmpty": "No entries for this task yet.",
+      "other": "Other entries",
+      "otherDescription": "Entries not tied to a specific task.",
+      "noEntries": "You haven't submitted anything yet. Head back to the offer page to send your first entry.",
+      "attachments": {
+        "alt": "Attachment {index}",
+        "image": "View image",
+        "generic": "Open attachment {index}"
+      },
+      "cards": {
+        "mediaEntry": "Media entry attached",
+        "genericEntry": "Entry submitted",
+        "scoreLabel": "Score:",
+        "timeLabel": "Time:",
+        "predictionScore": "Predicted score: {teamAScore} - {teamBScore}",
+        "predictionWinner": "Winner pick: {value}",
+        "predictionDraw": "Draw",
+        "predictionTeamA": "Team A",
+        "predictionTeamB": "Team B"
+      }
+    },
+    "entry": {
+      "title": "Enter the offer",
+      "description": "Submit your entry while the offer is open. You can always review your submissions from the participant dashboard.",
+      "alreadySubmitted": "You've already submitted all required entries for this offer.",
+      "panel": {
+        "heading": "Your submissions",
+        "description": "Track everything you've sent in for this offer. Entries stay private to you."
+      },
+      "signInPrompt": "Sign in to review your previous submissions and keep tabs on your progress.",
+      "signInCta": "Sign in to view your answers",
+      "statusOpen": "You can submit an entry right now. Make sure all details are accurate before sending.",
+      "statusClosed": "Entries are currently closed.",
+      "disabled": {
+        "inactive": "Offer is not active",
+        "notStarted": "Offer has not started yet",
+        "ended": "Offer has ended"
+      }
+    },
+    "stats": {
+      "title": "What to expect",
+      "description": "Participate in the challenge, follow the timeline, and keep an eye on your inbox for updates.",
+      "labels": {
+        "status": "Status",
+        "selection": "Selection",
+        "maxWinners": "Max winners",
+        "prizeSummary": "Prize summary",
+        "submissions": "Submissions received"
+      }
+    },
+    "rules": {
+      "title": "Official rules",
+      "fallback": "The organizer has not provided detailed rules yet. Please check again soon or contact the organizer for clarifications."
+    },
+    "livePrediction": {
+      "subtitle": "Live report of total selections.",
+      "liveBadge": "Live",
+      "drawLabel": "Draw",
+      "totalLabel": "Total",
+      "taskFallback": "Prediction {index}",
+      "empty": "No responses yet.",
+      "title": "Live leaderboard",
+      "error": "Unable to load live stats right now.",
+      "responsesLabel": "Total responses",
+      "optionFallback": "Option {index}",
+      "tasksLabel": "Active questions"
+    }
+  },
+  "ChallengesFilters": {
+    "heading": {
+      "badge": "Challenge Filters",
+      "title": "Refine open challenges",
+      "subtitle": "Search, narrow by type, and jump into the experience that fits your style.",
+      "hint": "Filters update instantly"
+    },
+    "search": {
+      "label": "Search",
+      "placeholder": "Search by title, prize, organizer…",
+      "helper": "Try keywords like “raffle”, “UGC”, or the reward you're chasing."
+    },
+    "types": {
+      "label": "Challenge types",
+      "helper": "Tap to focus on a single format",
+      "all": "All types"
+    },
+    "status": {
+      "label": "Status",
+      "options": {
+        "all": "All statuses",
+        "active": "Active now",
+        "ended": "Completed"
+      }
+    },
+    "sort": {
+      "label": "Sort by",
+      "options": {
+        "newest": "Newest first",
+        "endingSoon": "Ending soon"
+      }
+    }
+  },
+  "OfferManage": {
+    "state": {
+      "loading": "Loading contest...",
+      "notFound": "Contest not found.",
+      "checking": "Checking your access...",
+      "restricted": "Access restricted",
+      "restrictedMessage": "You need owner permissions to manage this contest."
+    },
+    "hero": {
+      "description": "Tweak every detail, invite collaborators, and keep the contest moving.",
+      "clickToAddCover": "Add cover photo",
+      "coverAlt": "Contest cover",
+      "avatarAlt": "Contest avatar",
+      "goToBasics": "Edit basics",
+      "viewPublic": "Open public page"
+    },
+    "tabs": {
+      "basics": "Basics",
+      "codes": "Codes",
+      "riddle": "Riddle",
+      "predictionSingle": "Predictions",
+      "predictionMatches": "Matches",
+      "rounds": "Rounds",
+      "prizes": "Prizes",
+      "rules": "Rules",
+      "media": "Media",
+      "messenger": "Platform Integrations",
+      "judges": "Judges",
+      "restrictions": "Restrictions",
+      "transparency": "Transparency"
+    },
+    "basics": {
+      "heading": "Contest basics",
+      "description": "Update names, visibility, timeline, and selection mode.",
+      "tag": "Public info",
+      "labels": {
+        "title": "Title",
+        "description": "Description",
+        "startsAt": "Opens at",
+        "endsAt": "Closes at",
+        "maxWinners": "Max winners",
+        "perUserLimit": "Entries per participant",
+        "visibility": "Visibility",
+        "status": "Status",
+        "winnerSelection": "Winner selection",
+        "seedCommit": "Seed commit",
+        "predictionFormat": "Prediction format"
+      },
+      "placeholders": {
+        "description": "Explain the storyline, key mechanics, or prizes..."
+      },
+      "visibility": {
+        "public": "Public (discoverable by everyone)",
+        "private": "Private (invite-only)"
+      },
+      "helpers": {
+        "status": "Only active contests accept new submissions. Pause when you want to edit privately.",
+        "selection": "Pick how winners will be chosen after entries close.",
+        "seedCommit": "Set the commitment hash that will be matched against the reveal at draw time.",
+        "prediction": "Tournament mode unlocks matches, rounds, and leaderboards."
+      },
+      "lockedNotice": "Contest configuration is locked after winners are published.",
+      "predictionOptions": {
+        "simple": "Simple board",
+        "tournament": "Tournament / matches"
+      },
+      "actions": {
+        "save": "Save changes"
+      }
+    },
+    "organizer": {
+      "heading": "Organizer",
+      "description": "Set the primary organizer shown on the public offer page.",
+      "labels": {
+        "kind": "Organizer type",
+        "id": "Organizer ID"
+      },
+      "options": {
+        "user": "User",
+        "business": "Business"
+      },
+      "placeholders": {
+        "id": "Enter organizer UUID"
+      },
+      "helpers": {
+        "choose": "Choose the organizer name to appear on the public page.",
+        "id": "Use a user ID for USER or a business ID for BUSINESS."
+      },
+      "actions": {
+        "save": "Save organizer",
+        "saving": "Saving..."
+      },
+      "status": {
+        "loading": "Loading organizer...",
+        "none": "No organizer set yet.",
+        "unknown": "Organizer"
+      },
+      "current": {
+        "kind": "Type",
+        "id": "ID"
+      },
+      "messages": {
+        "selectRequired": "Please choose an organizer.",
+        "saved": "Organizer updated.",
+        "saveFailed": "Unable to save organizer.",
+        "loadFailed": "Unable to load organizer.",
+        "notAuthorized": "You are not authorized to update the organizer.",
+        "idRequired": "Organizer ID is required."
+      },
+      "userFallback": "My profile",
+      "businessFallback": "Business"
+    },
+    "statusOptions": {
+      "active": "Active",
+      "paused": "Paused",
+      "ended": "Ended",
+      "draft": "Draft"
+    },
+    "selectionOptions": {
+      "randomFromCorrect": "Random from correct entries",
+      "everyCode": "Every code wins",
+      "topScore": "Top score",
+      "fastestTime": "Fastest time",
+      "mostCodes": "Most redeemed codes"
+    },
+    "proof": {
+      "heading": "Fairness proof",
+      "description": "Share the latest published proof so participants can verify the draw.",
+      "empty": "No fairness proof has been published yet.",
+      "actions": {
+        "copy": "Copy JSON",
+        "copied": "Copied"
+      },
+      "fields": {
+        "seed_commit": "Seed commit",
+        "seed_reveal": "Seed reveal",
+        "external_entropy": "External entropy",
+        "take": "Winners drawn",
+        "method_used": "Method"
+      }
+    },
+    "media": {
+      "heading": "Media library",
+      "addPhoto": "Upload media",
+      "addTile": "Add tile",
+      "empty": "No media uploaded yet. Drop campaign art, product shots, or teaser clips.",
+      "imageAlt": "Contest media",
+      "kindFallback": "Media",
+      "itemMeta": "{kind} · {timestamp}",
+      "selectedCount": "{count, plural, one {# file selected} other {# files selected}}",
+      "actions": {
+        "remove": "Delete image",
+        "removing": "Deleting..."
+      },
+      "confirmDelete": {
+        "title": "Delete this image?",
+        "description": "This action cannot be undone.",
+        "cancel": "Cancel",
+        "confirm": "Delete"
+      }
+    },
+    "messenger": {
+      "heading": "Platform Integrations",
+      "description": "Manage the Facebook Messenger connection for this contest.",
+      "pageConnection": {
+        "heading": "Facebook Page Connection",
+        "description": "Link your page token and automatically subscribe required webhook fields."
+      },
+      "status": {
+        "connected": "Connected",
+        "notConnected": "Not connected"
+      },
+      "loading": "Loading Messenger settings...",
+      "fields": {
+        "pageId": "Page ID",
+        "token": "Page access token",
+        "shareLink": "Share link"
+      },
+      "placeholders": {
+        "pageId": "123456789",
+        "token": "EAAB..."
+      },
+      "helpers": {
+        "token": "We never show the token again. Enter a fresh token when updating.",
+        "shareLink": "Share this link to open Messenger with the contest ref."
+      },
+      "details": {
+        "heading": "Current connection",
+        "pageId": "Page ID",
+        "tokenLast4": "Token last 4",
+        "updatedAt": "Last updated",
+        "none": "Not stored",
+        "never": "Never"
+      },
+      "empty": "No Messenger page connected yet.",
+      "actions": {
+        "save": "Save",
+        "update": "Update",
+        "disconnect": "Disconnect",
+        "copy": "Copy"
+      },
+      "messages": {
+        "loadFailed": "Failed to load Messenger settings.",
+        "saveFailed": "Failed to save Messenger settings.",
+        "disconnectFailed": "Failed to disconnect Messenger.",
+        "saved": "Messenger settings saved.",
+        "disconnected": "Messenger disconnected.",
+        "linkCopied": "Link copied.",
+        "copyFailed": "Copy failed.",
+        "required": "Page ID and access token are required.",
+        "notAuthorized": "Please sign in or you are not authorized."
+      },
+      "channels": {
+        "heading": "Participation Channels",
+        "description": "Choose which Facebook channels can accept contest participation.",
+        "messengerToggle": "Enable Messenger participation",
+        "commentsToggle": "Enable Facebook Post Comments participation"
+      },
+      "pagePicker": {
+        "heading": "Select Facebook Page",
+        "fields": {
+          "page": "My pages"
+        },
+        "placeholders": {
+          "page": "Choose page"
+        },
+        "actions": {
+          "loadPages": "Load my pages"
+        },
+        "messages": {
+          "missingAppId": "Missing NEXT_PUBLIC_FACEBOOK_APP_ID",
+          "sdkUnavailable": "Facebook SDK is not ready yet.",
+          "loginFailed": "Facebook login was not completed.",
+          "emptyPages": "No manageable pages returned for this account.",
+          "loadFailed": "Unable to load pages from Facebook."
+        }
+      },
+      "readonly": {
+        "heading": "Current linked resources (read-only)",
+        "description": "Review what is currently connected to this contest.",
+        "notAvailable": "Not available",
+        "disconnectNotice": "This page connection will be disconnected automatically at contest end date: {date}. It also disconnects immediately if you press Disconnect.",
+        "pageCard": "Connected page",
+        "commentsCard": "Connected comments source",
+        "connectedPage": "Facebook page",
+        "pageStatus": "Page connection status",
+        "pageUpdatedAt": "Page linked/updated at",
+        "connectedPost": "Linked Facebook post",
+        "commentsStatus": "Comments channel status",
+        "commentsMode": "Comment input mode",
+        "commentsLinkedAt": "Comments source linked at",
+        "commentsUpdatedAt": "Comments source updated at"
+      },
+      "comments": {
+        "heading": "Comments settings",
+        "loading": "Loading comments configuration...",
+        "fields": {
+          "postUrl": "Facebook Post URL",
+          "extractedPostId": "Extracted Post ID",
+          "inputMode": "Comment input mode",
+          "taskId": "Map answers to MCQ task",
+          "allowedOptions": "Allowed options (fallback)",
+          "allowMultiple": "Allow multiple answers per user",
+          "maxAnswers": "Max answers per user"
+        },
+        "placeholders": {
+          "postUrl": "Paste the post link from Facebook",
+          "taskId": "Select MCQ task",
+          "allowedOptions": "One option per line"
+        },
+        "helpers": {
+          "allowedOptions": "Use this only when no MCQ task mapping is selected."
+        },
+        "modes": {
+          "optionList": "OPTION_LIST (MCQ style)",
+          "text": "TEXT (free text)",
+          "imageOnly": "IMAGE_ONLY (photo/media required)",
+          "textOrImage": "TEXT_OR_IMAGE (accept either)"
+        },
+        "summary": {
+          "title": "Comments enabled on post: {postId}",
+          "mode": "Input mode: {mode}",
+          "limit": "Per-user limit: {limit}",
+          "testHint": "Test hint: comment on the configured Facebook post to participate."
+        },
+        "actions": {
+          "saveChannels": "Save participation channels",
+          "openLink": "Open link"
+        },
+        "messages": {
+          "loadFailed": "Failed to load comments settings.",
+          "saveFailed": "Failed to save comments settings.",
+          "saved": "Participation channel settings updated.",
+          "pageRequired": "Connect a Facebook page first.",
+          "connectPageFirst": "Connect a Facebook Page first.",
+          "postUrlParseError": "Cannot parse post URL.",
+          "postUrlPageMismatch": "Post URL page does not match connected page.",
+          "postUrlValid": "Valid post URL and page match.",
+          "postRequired": "Facebook Post ID is required when comments channel is enabled.",
+          "optionRequired": "Provide an MCQ task mapping or fallback allowed options.",
+          "messengerRequired": "Messenger channel must stay enabled while page integration is active."
+        }
+      }
+    },
+    "judges": {
+      "heading": "Judges & reviewers",
+      "placeholder": "Paste MazayaGo user ID (UUID)",
+      "add": "Add judge",
+      "adding": "Adding...",
+      "helper": "Judges can moderate entries, review winners, and help with transparency.",
+      "invalid": "Please enter a valid UUID.",
+      "duplicate": "This judge is already assigned.",
+      "loading": "Loading judges...",
+      "empty": "No judges have been added yet.",
+      "remove": "Remove"
+    },
+    "rules": {
+      "heading": "Official rules",
+      "description": "Write the official terms in Markdown. Participants will see this on the entry form.",
+      "togglePreview": {
+        "show": "Show preview",
+        "hide": "Hide preview"
+      },
+      "label": "Rules content",
+      "placeholder": "Use Markdown to outline eligibility, instructions, and prizes...",
+      "tipsTitle": "Formatting tips",
+      "tips": {
+        "heading": {
+          "code": "#",
+          "description": "Add #, ##, or ### before text to create headings."
+        },
+        "bullet": {
+          "code": "-",
+          "description": "Use a dash to create bullet lists."
+        },
+        "bold": {
+          "code": "**bold**",
+          "description": "Wrap text in **double asterisks** to emphasize."
+        },
+        "link": {
+          "code": "[text](url)",
+          "description": "Add helpful links to policies or FAQs."
+        }
+      },
+      "preview": {
+        "title": "Live preview",
+        "description": "Render Markdown exactly as players will see it.",
+        "empty": "Start typing to preview your rules.",
+        "disabled": "Enable preview to render Markdown."
+      },
+      "actions": {
+        "save": "Save rules",
+        "reset": "Reset"
+      }
+    },
+    "modal": {
+      "changeCover": "Change cover",
+      "changeAvatar": "Change avatar",
+      "addPhoto": "Add to gallery",
+      "cancel": "Cancel",
+      "upload": "Upload",
+      "uploading": "Uploading..."
+    },
+    "messages": {
+      "loadContest": "Unable to load contest.",
+      "loadJudges": "Failed to load judges.",
+      "coverUpdated": "Cover updated.",
+      "avatarUpdated": "Avatar updated.",
+      "imageUploaded": "Image uploaded.",
+      "imagesUploaded": "{count, plural, one {# image uploaded.} other {# images uploaded.}}",
+      "uploadFailed": "Upload failed.",
+      "uploadUnavailable": "Uploads are disabled for this contest.",
+      "basicsSaved": "Contest basics saved.",
+      "enterJudgeId": "Enter a valid judge ID first.",
+      "invalidJudgeId": "Judge ID must be a valid UUID.",
+      "judgeAlreadyAdded": "This judge is already in the list.",
+      "addJudgeSuccess": "Judge added.",
+      "addJudgeFailed": "Unable to add judge.",
+      "removeJudgeSuccess": "Judge removed.",
+      "removeJudgeFailed": "Unable to remove judge.",
+      "removeMediaSuccess": "Image deleted.",
+      "removeMediaFailed": "Unable to delete image.",
+      "rulesUpdated": "Rules updated."
+    },
+    "codes": {
+      "defaults": {
+        "contestTitle": "Contest",
+        "batchSuffix": "codes batch",
+        "filePrefix": "mazayago-codes"
+      },
+      "title": "Generate secure codes",
+      "description": "Create text/QR codes, tag them, and export for on-pack redemptions.",
+      "fields": {
+        "batchName": {
+          "label": "Batch name",
+          "placeholder": "e.g., Launch drop codes",
+          "suggested": "Suggested: {name}"
+        },
+        "quantity": "Quantity",
+        "codeLength": {
+          "label": "Code length",
+          "helper": "Alphanumeric codes that avoid confusing characters."
+        },
+        "tag": "Tag",
+        "sku": {
+          "label": "SKU / reference",
+          "placeholder": "e.g., SKU-2025"
+        },
+        "maxRedemptions": "Max redemptions per code",
+        "expiry": "Expiry date"
+      },
+      "tags": {
+        "normal": "Standard",
+        "gold": "Gold"
+      },
+      "tips": {
+        "title": "Tips",
+        "quantity": "Large batches may take a few seconds—keep them under 10k when possible.",
+        "length": "Longer codes are harder to guess and ideal for public posters.",
+        "sku": "Use SKUs to reconcile batches across physical and digital channels."
+      },
+      "status": {
+        "generated": "Batch generated"
+      },
+      "messages": {
+        "generateFailed": "Could not generate codes.",
+        "unexpected": "Something went wrong while generating this batch.",
+        "pdfError": "Unable to prepare the QR card PDF.",
+        "batchNameRequired": "Batch name is required.",
+        "quantityMin": "Quantity must be at least 1."
+      },
+      "actions": {
+        "generate": "Generate codes",
+        "generating": "Generating...",
+        "reset": "Reset form",
+        "downloadCards": "Download QR cards",
+        "downloadCardsBusy": "Preparing PDF..."
+      },
+      "preview": {
+        "title": "Preview",
+        "description": "The first few generated codes show up here before export.",
+        "batchId": "Batch ID: {id}",
+        "table": {
+          "headers": {
+            "code": "Code",
+            "tag": "Tag",
+            "sku": "SKU",
+            "max": "Max redeems",
+            "expires": "Expires"
+          },
+          "never": "No expiry"
+        }
+      },
+      "cards": {
+        "title": "Printable cards",
+        "description": "Each card includes a QR code plus contest details for in-store activations.",
+        "placeholder": "QR",
+        "alt": "QR code for {code}",
+        "tag": "Tag: {value}",
+        "expires": "Expires: {value}",
+        "pdf": {
+          "contestUrl": "Contest link",
+          "organizer": "Organizer",
+          "inquiry": "Inquiries",
+          "usageLine": "To join: open your camera and scan the QR code.",
+          "notAvailable": "N/A"
+        }
+      }
+    },
+    "riddle": {
+      "kinds": {
+        "MCQ": "Multiple choice",
+        "ANSWER_TEXT": "Typed answer"
+      },
+      "builder": {
+        "title": "Create riddle challenge",
+        "description": "Add puzzles or questions players must solve before moving on.",
+        "actions": {
+          "create": "Add challenge",
+          "update": "Update challenge",
+          "saving": "Saving...",
+          "cancel": "Cancel",
+          "editExisting": "Edit existing challenge"
+        },
+        "fields": {
+          "title": {
+            "label": "Title",
+            "placeholder": "e.g., Decode the neon sign"
+          },
+          "description": {
+            "label": "Description",
+            "placeholder": "Provide clue text, lore, or hints..."
+          },
+          "answerType": {
+            "label": "Answer type",
+            "helper": "Use MCQ for preset answers or text for freeform responses."
+          }
+        },
+        "options": {
+          "title": "Answer options",
+          "description": "Provide two to four choices and mark the correct one.",
+          "optionLabel": "Option",
+          "placeholder": "Enter option text",
+          "correct": "Correct answer",
+          "remove": "Remove",
+          "add": "Add option",
+          "count": "{current}/{max} options"
+        }
+      },
+      "list": {
+        "title": "Riddle library",
+        "description": "Manage challenges that are not tied to rounds.",
+        "loading": "Loading challenges...",
+        "empty": "No riddle challenges yet. Create your first one above.",
+        "optionsTitle": "Options",
+        "correctBadge": "Correct",
+        "edit": "Edit",
+        "delete": "Delete",
+        "removing": "Removing..."
+      },
+      "messages": {
+        "loadFailed": "Unable to load challenges.",
+        "saveFailed": "Could not save challenge.",
+        "deleteFailed": "Failed to delete challenge.",
+        "titleRequired": "Title is required.",
+        "optionsRequired": "Provide at least two options for MCQ riddles.",
+        "optionsCorrect": "Mark at least one option as correct.",
+        "confirmDelete": "Delete this challenge?"
+      }
+    },
+    "prediction": {
+      "kinds": {
+        "MCQ": "Multiple choice",
+        "ANSWER_TEXT": "Typed answer"
+      },
+      "builder": {
+        "title": "Create prediction prompt",
+        "description": "Ask players to predict outcomes, winners, or stats.",
+        "actions": {
+          "create": "Add prediction",
+          "update": "Update prediction",
+          "saving": "Saving...",
+          "cancel": "Cancel",
+          "editExisting": "Edit existing prediction"
+        },
+        "fields": {
+          "title": {
+            "label": "Title",
+            "placeholder": "e.g., Who scores first?"
+          },
+          "description": {
+            "label": "Description",
+            "placeholder": "Add context, odds, or storyline..."
+          },
+          "answerType": {
+            "label": "Answer type",
+            "helper": "Switch between multiple choice or free text predictions."
+          }
+        },
+        "options": {
+          "title": "Choices",
+          "description": "Provide up to four options players can pick from.",
+          "optionLabel": "Option",
+          "placeholder": "Enter option text",
+          "remove": "Remove",
+          "add": "Add option",
+          "count": "{current}/{max} options"
+        }
+      },
+      "list": {
+        "title": "Prediction bank",
+        "description": "Manage quick predictions for simple mode contests.",
+        "loading": "Loading predictions...",
+        "empty": "No prediction prompts yet. Create one above.",
+        "optionsTitle": "Options",
+        "edit": "Edit",
+        "delete": "Delete",
+        "removing": "Removing..."
+      },
+      "messages": {
+        "loadFailed": "Unable to load predictions.",
+        "saveFailed": "Could not save prediction.",
+        "deleteFailed": "Failed to delete prediction.",
+        "titleRequired": "Title is required.",
+        "optionsRequired": "Provide at least two options for multiple choice predictions.",
+        "confirmDelete": "Delete this prediction?"
+      }
+    },
+    "predictionMatches": {
+      "messages": {
+        "loadRounds": "Unable to load rounds.",
+        "loadMatches": "Unable to load matches.",
+        "saveRound": "Failed to save round.",
+        "saveMatch": "Failed to save match.",
+        "deleteRound": "Failed to delete round.",
+        "deleteMatch": "Failed to delete match.",
+        "roundNameRequired": "Round name is required.",
+        "teamsRequired": "Enter both team names before saving.",
+        "confirmMatchDelete": "Delete this match?",
+        "confirmRoundDelete": "Delete this round?"
+      },
+      "rounds": {
+        "title": "Rounds",
+        "description": "Break the tournament into rounds or match days.",
+        "buttons": {
+          "new": "New round",
+          "add": "Add round"
+        },
+        "form": {
+          "name": {
+            "label": "Round name",
+            "placeholder": "e.g., Quarter-final"
+          },
+          "start": "Start time (optional)",
+          "end": "End time (optional)"
+        },
+        "actions": {
+          "saving": "Saving...",
+          "create": "Create round",
+          "update": "Update round",
+          "cancel": "Cancel"
+        },
+        "states": {
+          "loading": "Loading rounds...",
+          "empty": "No rounds yet. Add one to start organizing matches."
+        },
+        "card": {
+          "label": "Round",
+          "noStart": "No start",
+          "noEnd": "No end",
+          "edit": "Edit",
+          "delete": "Delete",
+          "showing": "Showing matches",
+          "view": "View matches"
+        }
+      },
+      "matches": {
+        "title": "Matches",
+        "description": "Add each matchup with teams, kickoff time, and scoring preference.",
+        "buttons": {
+          "new": "New match",
+          "add": "Add match"
+        },
+        "form": {
+          "teamA": {
+            "label": "Team A",
+            "placeholder": "e.g., Saudi Arabia"
+          },
+          "teamB": {
+            "label": "Team B",
+            "placeholder": "e.g., UAE"
+          },
+          "kickoff": "Kickoff time (optional)",
+          "round": "Round",
+          "roundNone": "No round",
+          "requireScores": "Require participants to predict exact scores"
+        },
+        "actions": {
+          "saving": "Saving...",
+          "create": "Create match",
+          "update": "Update match",
+          "cancel": "Cancel"
+        },
+        "workflow": {
+          "title": "Workflow",
+          "steps": "1) Add rounds · 2) Add matches · 3) Record final results from the status page."
+        },
+        "filters": {
+          "all": "All rounds"
+        },
+        "states": {
+          "loading": "Loading matches...",
+          "empty": "No matches added yet. Use the button above to create one."
+        },
+        "card": {
+          "label": "Match",
+          "fallbackTeamA": "Team A",
+          "fallbackTeamB": "Team B",
+          "round": "Round",
+          "optionsTitle": "Possible outcomes",
+          "requireScores": "Players must predict exact scores.",
+          "winnerOnly": "Winner only",
+          "edit": "Edit",
+          "delete": "Delete",
+          "removing": "Removing..."
+        },
+        "defaults": {
+          "draw": "Draw"
+        },
+        "status": {
+          "scheduled": "Scheduled",
+          "awaiting": "Awaiting result",
+          "soon": "Starting soon",
+          "final": "Final"
+        },
+        "roundBadge": "Round"
+      }
+    },
+    "roundsManager": {
+      "taskKinds": {
+        "ANSWER_TEXT": "Open response",
+        "MCQ": "Multiple choice",
+        "SCAN_QR": "Scan QR",
+        "UPLOAD_PHOTO": "Photo upload",
+        "UPLOAD_VIDEO": "Video upload",
+        "CHECKIN": "Location check-in",
+        "REFERRAL": "Referral"
+      },
+      "messages": {
+        "loadRounds": "Unable to load rounds.",
+        "loadTasks": "Unable to load tasks.",
+        "saveRound": "Failed to save round.",
+        "saveTask": "Failed to save task.",
+        "deleteRound": "Failed to delete round.",
+        "deleteTask": "Failed to delete task.",
+        "roundNameRequired": "Round name is required.",
+        "taskTitleRequired": "Task title is required.",
+        "optionsRequired": "Provide at least two options for MCQ tasks.",
+        "optionsCorrect": "Mark at least one option as correct.",
+        "confirmRoundDelete": "Delete this round?",
+        "confirmTaskDelete": "Delete this task?"
+      },
+      "rounds": {
+        "title": "Rounds",
+        "description": "Structure multi-stage contests with rounds or missions.",
+        "buttons": {
+          "new": "New round",
+          "add": "Add round"
+        },
+        "form": {
+          "name": {
+            "label": "Round name",
+            "placeholder": "e.g., Stage 1"
+          },
+          "start": "Start time (optional)",
+          "end": "End time (optional)"
+        },
+        "actions": {
+          "saving": "Saving...",
+          "create": "Create round",
+          "update": "Update round",
+          "cancel": "Cancel"
+        },
+        "states": {
+          "loading": "Loading rounds...",
+          "empty": "No rounds yet. Create one to start sequencing tasks."
+        },
+        "card": {
+          "label": "Round",
+          "position": "Order #{value}",
+          "noStart": "No start",
+          "noEnd": "No end",
+          "starts": "Starts",
+          "ends": "Ends",
+          "edit": "Edit",
+          "delete": "Delete",
+          "removing": "Removing...",
+          "showing": "Showing tasks",
+          "view": "View tasks"
+        }
+      },
+      "tasks": {
+        "title": "Tasks",
+        "description": "Create missions, QR scans, uploads, and MCQs for each round.",
+        "filters": {
+          "all": "All rounds"
+        },
+        "buttons": {
+          "new": "New task",
+          "add": "Add task"
+        },
+        "form": {
+          "title": {
+            "label": "Task title",
+            "placeholder": "e.g., Scan the mural"
+          },
+          "type": "Task type",
+          "description": {
+            "label": "Description",
+            "placeholder": "Explain what participants must do..."
+          },
+          "round": "Round",
+          "roundNone": "Unassigned",
+          "points": "Points",
+          "timeLimit": "Time limit (seconds)"
+        },
+        "options": {
+          "title": "Answer options",
+          "description": "Provide choices and mark the correct answer.",
+          "placeholder": "Option text",
+          "correct": "Correct answer",
+          "remove": "Remove",
+          "add": "Add option",
+          "count": "{current}/{max} options"
+        },
+        "actions": {
+          "saving": "Saving...",
+          "create": "Create task",
+          "update": "Update task",
+          "cancel": "Cancel"
+        },
+        "states": {
+          "loading": "Loading tasks...",
+          "empty": "No tasks created for this filter."
+        },
+        "card": {
+          "kind": "Type",
+          "description": "Description",
+          "points": "Points",
+          "round": "Round",
+          "linkedRound": "Linked round",
+          "none": "None",
+          "timeLimit": "Time limit",
+          "optionsTitle": "Options",
+          "correctBadge": "Correct",
+          "edit": "Edit",
+          "delete": "Delete",
+          "removing": "Removing..."
+        }
+      }
+    },
+    "transparency": {
+      "messages": {
+        "loadFailed": "Unable to load transparency data.",
+        "publishSuccess": "Latest draw posted.",
+        "publishFailed": "Failed to publish draw data.",
+        "clearSuccess": "Transparency data cleared.",
+        "clearFailed": "Unable to clear the current proof.",
+        "confirmRemove": "Clear the published draw proof?"
+      },
+      "hero": {
+        "title": "Random draw transparency",
+        "description": "Publish the seed reveal and external entropy so players can verify your draw.",
+        "buttons": {
+          "create": "Publish draw proof",
+          "update": "Update proof",
+          "remove": "Clear proof",
+          "clearing": "Clearing..."
+        }
+      },
+      "form": {
+        "titleCreate": "Publish proof",
+        "titleUpdate": "Update proof",
+        "description": "Share the seed reveal and the external data source you used.",
+        "seed": {
+          "label": "Seed reveal",
+          "placeholder": "e.g., hash_commitment_reveal"
+        },
+        "entropy": {
+          "label": "External entropy (optional)",
+          "placeholder": "e.g., blockhash or API data"
+        },
+        "actions": {
+          "publish": "Publish proof",
+          "update": "Update proof",
+          "publishing": "Publishing...",
+          "reset": "Reset fields",
+          "cancel": "Cancel"
+        }
+      },
+      "latest": {
+        "title": "Latest submission",
+        "description": "The raw JSON proof appears here. Share it with your community for verification.",
+        "timestamp": {
+          "label": "Timestamp"
+        },
+        "loading": "Loading transparency data...",
+        "empty": "No draw proof has been published yet."
+      }
+    },
+    "prizes": {
+      "messages": {
+        "loadFailed": "Unable to load prizes.",
+        "saveFailed": "Could not save prize.",
+        "deleteFailed": "Failed to delete prize.",
+        "nameRequired": "Prize name is required.",
+        "confirmDelete": "Delete this prize?"
+      },
+      "hero": {
+        "title": "Prize configuration",
+        "description": "Create each reward, its quantity, amount, and summary."
+      },
+      "buttons": {
+        "create": "New prize",
+        "add": "Add prize",
+        "editing": "Update prize",
+        "saving": "Saving...",
+        "reset": "Reset form",
+        "cancel": "Cancel"
+      },
+      "form": {
+        "title": {
+          "label": "Prize title",
+          "placeholder": "e.g., VIP weekend"
+        },
+        "type": "Prize type",
+        "summary": {
+          "label": "Summary (optional)",
+          "placeholder": "Describe the reward or fulfillment notes..."
+        },
+        "quantity": "Quantity",
+        "amount": "Amount (optional)",
+        "currency": "Currency"
+      },
+      "types": {
+        "VOUCHER": "Voucher",
+        "WALLET_CREDIT": "Wallet credit",
+        "PHYSICAL": "Physical item",
+        "ACCESS": "Access / pass",
+        "BADGE": "Badge"
+      },
+      "list": {
+        "title": "Prizes & rewards",
+        "description": "Track every prize and edit details as you finalize fulfillment.",
+        "loading": "Loading prizes...",
+        "empty": "No prizes yet. Add at least one reward for participants.",
+        "typeFallback": "Prize",
+        "nameFallback": "Untitled prize",
+        "quantity": "Quantity",
+        "amount": "Amount",
+        "amountEmpty": "-",
+        "quantityEmpty": "-",
+        "actions": {
+          "edit": "Edit",
+          "delete": "Delete",
+          "removing": "Removing..."
+        }
+      }
+    },
+    "fairness": {
+      "heading": "Fairness and transparency",
+      "description": "Expose your draw proof so participants can audit the winner selection.",
+      "empty": "No fairness proof has been published yet.",
+      "rawJson": "Raw JSON",
+      "actions": {
+        "copy": "Copy proof",
+        "copying": "Copying..."
+      },
+      "labels": {
+        "seedCommit": "Seed commit",
+        "seedReveal": "Seed reveal",
+        "externalEntropy": "External entropy",
+        "selection": "Selection method",
+        "maxWinners": "Max winners",
+        "publishedAt": "Published at"
+      },
+      "seedSetupHint": "Seed commit is not configured yet for this selection mode.",
+      "seedSetupCta": "Setup Seed from Winners status"
+    }
+  },
+  "OfferNew": {
+    "hero": {
+      "label": "Launch a challenge",
+      "title": "Pick the challenge format that fits your idea",
+      "description": "Choose a curated challenge template, then customize every interaction before you go live."
+    },
+    "list": {
+      "title": "Popular challenge formats",
+      "cta": "Start with this challenge",
+      "items": {
+        "RAFFLE": {
+          "title": "Raffle — instant wins / QR codes",
+          "desc": "Distribute QR codes or alphanumeric tokens and let MazayaGo randomly select verified winners.",
+          "note": "Best when you already have codes on packs, receipts, or POP materials."
+        },
+        "RIDDLE": {
+          "title": "Riddle challenges",
+          "desc": "Story-driven puzzles that unlock clues or lore as players answer correctly.",
+          "note": "Perfect when you want narrative missions and knowledge-based engagement."
+        },
+        "QR_CODE": {
+          "title": "QR code hunt",
+          "desc": "Place QR posters or NFC tags across locations and reward every verified scan.",
+          "note": "Great for OOH, retail shelves, events, and pop-up activations."
+        },
+        "LEADERBOARD": {
+          "title": "Leaderboard challenge",
+          "desc": "Score each submission, rank participants, and reward top performers.",
+          "note": "Ideal for trivia, speed runs, or any mechanic with points."
+        },
+        "TREASURE_HUNT": {
+          "title": "Treasure hunt",
+          "desc": "Guide fans through sequential missions and clues that lead to hidden rewards.",
+          "note": "Use when you need multi-location campaigns or launch quests."
+        },
+        "UGC": {
+          "title": "UGC showcase",
+          "desc": "Collect photos, videos, or stories from your community and highlight the best ones.",
+          "note": "Designed for creativity-driven drops and ambassador programs."
+        },
+        "REFERRAL": {
+          "title": "Referral mission",
+          "desc": "Reward players who invite friends or grow your audience with custom codes.",
+          "note": "Built for loyalty loops and ambassador pushes."
+        },
+        "PREDICTION": {
+          "title": "Prediction challenge",
+          "desc": "Let fans predict match winners, scorelines, or future outcomes.",
+          "note": "Ideal for sports, entertainment, and reveal-based launches."
+        }
+      }
+    }
+  },
+  "OfferNewType": {
+    "hero": {
+      "label": "Challenge setup wizard",
+      "title": "Configure your {type} challenge",
+      "description": "Name the challenge, define how winners are selected, and set the launch schedule."
+    },
+    "form": {
+      "basics": {
+        "title": "Basics",
+        "description": "These details appear on the public page and help participants understand the challenge."
+      },
+      "fields": {
+        "title": {
+          "label": "Challenge title",
+          "placeholder": "e.g., Downtown treasure run"
+        },
+        "slug": {
+          "preview": "Public URL: {slug}",
+          "pending": "Preparing slug..."
+        },
+        "description": {
+          "label": "Description",
+          "placeholder": "Describe the challenge..."
+        }
+      }
+    },
+    "selection": {
+      "title": "Winner selection",
+      "description": "MazayaGo recommends a selection mode for each format. You can change it at any time.",
+      "cards": {
+        "RANDOM_FROM_CORRECT": {
+          "title": "Random from correct entries",
+          "note": "Pick a random winner from everyone who answered correctly."
+        },
+        "EVERY_CODE": {
+          "title": "Every code wins",
+          "note": "Every valid code or scan unlocks a reward."
+        },
+        "TOP_SCORE": {
+          "title": "Top score",
+          "note": "Reward whoever earns the highest score or points."
+        },
+        "FASTEST_TIME": {
+          "title": "Fastest time",
+          "note": "Crown the quickest player to finish the challenge."
+        },
+        "MOST_CODES": {
+          "title": "Most redeemed codes",
+          "note": "Winners are the players who submit the most codes."
+        }
+      }
+    },
+    "schedule": {
+      "title": "Schedule & limits",
+      "description": "Control when entries open, how many winners you pick, and whether the challenge is public.",
+      "startsAt": "Opens at",
+      "endsAt": "Closes at",
+      "maxWinners": "Max winners",
+      "perUserLimit": "Entries per participant",
+      "visibility": "Visibility",
+      "visibilityPublic": "Public",
+      "visibilityPrivate": "Private"
+    },
+    "buttons": {
+      "create": "Create challenge",
+      "creating": "Creating challenge...",
+      "cancel": "Cancel"
+    },
+    "messages": {
+      "titleRequired": "Challenge title is required.",
+      "slugRequired": "Pick a unique URL before publishing.",
+      "createFailed": "Failed to create challenge."
+    },
+    "aside": {
+      "overview": "Overview",
+      "selectionLabel": "Selection mode: {mode}",
+      "tipsTitle": "Tips",
+      "tips": {
+        "first": "Short, descriptive challenge titles perform the best.",
+        "second": "Use the description to explain how to enter and when winners are announced.",
+        "third": "You can refresh the slug at any time before you share the link."
+      }
+    }
+  },
+  "Auth": {
+    "signIn": {
+      "heading": "Welcome back to MazayaGo.",
+      "subheading": "Choose your preferred sign-in method. Use Google or receive a secure email passcode to access your account.",
+      "helpTitle": "Need help?",
+      "helpItems": {
+        "email": "Lost access to your email? Contact support@MazayaGo.com",
+        "expiry": "We send codes that expire within 15 minutes for your security.",
+        "sessions": "Review your active sessions anytime from the profile menu."
+      },
+      "cardLabel": "Sign in",
+      "cardTitle": "Sign-in methods",
+      "or": "Or",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "you@example.com",
+      "codeLabel": "6-digit code",
+      "codePlaceholder": "------",
+      "sendCode": "Send code",
+      "sending": "Sending...",
+      "verify": "Verify & sign in",
+      "verifying": "Verifying...",
+      "resend": "Resend code",
+      "status": {
+        "sent": "Code sent. Check your inbox.",
+        "verifying": "Verifying your code...",
+        "success": "Success! Redirecting..."
+      },
+      "footerPrompt": "Need an account?",
+      "footerAction": "Create one",
+      "providers": {
+        "google": "Continue with Google",
+        "facebook": "Continue with Facebook"
+      },
+      "errors": {
+        "invalidInput": "Enter a valid email address.",
+        "missingFields": "Enter your email, then the 6-digit code.",
+        "invalidCode": "Invalid code. Please try again.",
+        "codeExpired": "Code expired. Request a new one.",
+        "codeUsed": "Code already used. Request a new one.",
+        "rateLimited": "Too many requests. Please wait and try again.",
+        "phoneNotSupported": "Phone sign-in is not available yet. Use your email instead.",
+        "enterEmail": "Enter your email address first.",
+        "invalidEmail": "Enter a valid email address.",
+        "codeLength": "Enter the 6-digit verification code.",
+        "sendFailed": "Unable to send the code. Please try again.",
+        "verifyFailed": "Verification failed. Please try again.",
+        "networkSend": "Network error while sending the code.",
+        "networkVerify": "Network error while verifying the code."
+      }
+    },
+    "signUp": {
+      "heading": "Start your journey with MazayaGo.",
+      "subheading": "Create a professional account in one step with Google or a one-time email code, then explore interactive offers and experiences with confidence.",
+      "cardLabel": "Sign up",
+      "cardTitle": "Sign-up methods",
+      "or": "Or",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "you@example.com",
+      "codeLabel": "6-digit code",
+      "codePlaceholder": "------",
+      "sendCode": "Send code",
+      "sending": "Sending...",
+      "verify": "Verify & sign up",
+      "verifying": "Verifying...",
+      "resend": "Resend code",
+      "status": {
+        "sent": "Code sent. Check your inbox.",
+        "verifying": "Verifying your code...",
+        "success": "Success! Redirecting..."
+      },
+      "terms": {
+        "prefix": "I agree to the",
+        "terms": "Terms",
+        "and": "and",
+        "privacy": "Privacy Policy",
+        "suffix": "."
+      },
+      "footerPrompt": "Already have an account?",
+      "footerAction": "Sign in",
+      "providers": {
+        "google": "Continue with Google",
+        "facebook": "Continue with Facebook"
+      },
+      "errors": {
+        "invalidInput": "Enter a valid email address.",
+        "missingFields": "Enter your email, then the 6-digit code.",
+        "invalidCode": "Invalid code. Please try again.",
+        "codeExpired": "Code expired. Request a new one.",
+        "codeUsed": "Code already used. Request a new one.",
+        "rateLimited": "Too many requests. Please wait and try again.",
+        "phoneNotSupported": "Phone sign-up is not available yet. Use your email instead.",
+        "enterEmail": "Enter your email address first.",
+        "invalidEmail": "Enter a valid email address.",
+        "codeLength": "Enter the 6-digit verification code.",
+        "sendFailed": "Unable to send the code. Please try again.",
+        "verifyFailed": "Verification failed. Please try again.",
+        "networkSend": "Network error while sending the code.",
+        "networkVerify": "Network error while verifying the code.",
+        "agreement": "Please agree to the terms before creating an account."
+      }
+    }
+  },
+  "PoliciesCommon": {
+    "lastUpdatedLabel": "Last updated",
+    "lastUpdatedDate": "10-08-2025",
+    "tocTitle": "On this page"
+  },
+  "PoliciesLinks": {
+    "hub": {
+      "title": "Policies Hub",
+      "short": "Policies",
+      "description": "Overview of our public policies and support channels."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "short": "Privacy",
+      "description": "How we collect, use, and protect data on MazayaGo."
+    },
+    "terms": {
+      "title": "Terms & Conditions",
+      "short": "Terms",
+      "description": "Rules for using MazayaGo and participating in contests."
+    },
+    "deletion": {
+      "title": "Data Deletion",
+      "short": "Delete Data",
+      "description": "Request deletion of data related to MazayaGo across supported channels."
+    },
+    "cookies": {
+      "title": "Cookie Policy",
+      "short": "Cookies",
+      "description": "How cookies and similar technologies are used."
+    },
+    "contact": {
+      "title": "Contact & Support",
+      "short": "Contact",
+      "description": "Reach our support team and compliance contact."
+    }
+  },
+  "PoliciesHub": {
+    "title": "MazayaGo Policies",
+    "description": "Public policies for the MazayaGo platform, contests, and integrations across web and external channels.",
+    "subtitle": "Policies for the MazayaGo platform across web, messaging, and partner integrations.",
+    "badges": {
+      "public": "Public",
+      "compliance": "Designed for Meta review"
+    },
+    "footerNote": "These policies apply to the MazayaGo platform and its integrations unless a specific campaign states otherwise.",
+    "toc": {
+      "overview": "Overview",
+      "links": "Policy pages",
+      "meta": "Meta review links",
+      "support": "Support & compliance"
+    },
+    "overview": {
+      "title": "Overview",
+      "paragraphs": [
+        "MazayaGo is a platform for running and managing contests, offers, and interactive experiences across the web and multiple channels.",
+        "The pages below explain how we handle data, the rules for participation, and how to contact us for privacy or compliance requests."
+      ],
+      "calloutTitle": "Need a specific policy link?",
+      "calloutBody": "Use the links below when sharing policy URLs with partners or Meta App Review."
+    },
+    "links": {
+      "title": "Policy pages",
+      "cta": "Open policy"
+    },
+    "meta": {
+      "title": "Policy URLs for verification",
+      "paragraphs": [
+        "For app review or partner verification (including Meta), use the canonical URLs below. Each page is publicly accessible without authentication.",
+        "If you manage multiple Pages or channels, these policies apply to all MazayaGo-managed flows."
+      ]
+    },
+    "support": {
+      "title": "Support and compliance contact",
+      "paragraphs": [
+        "If you have questions about privacy, data deletion, or policy interpretation, reach our compliance team.",
+        "We respond to verified requests as quickly as possible and may request additional information to confirm identity."
+      ],
+      "cta": "Contact support"
+    }
+  },
+  "PoliciesPrivacy": {
+    "title": "Privacy Policy",
+    "description": "How MazayaGo collects, uses, and protects data across the platform.",
+    "subtitle": "Applies to our website, contests, and connected channels.",
+    "badges": {
+      "primary": "Privacy"
+    },
+    "footerNote": "Using MazayaGo means you agree to this policy. If you do not agree, please stop using the service.",
+    "toc": {
+      "scope": "Scope",
+      "collection": "Information we collect",
+      "sources": "Sources of data",
+      "usage": "How we use data",
+      "sharing": "Sharing and disclosure",
+      "retention": "Retention",
+      "rights": "Your rights",
+      "security": "Security measures",
+      "children": "Children and minors",
+      "updates": "Updates to this policy",
+      "integrations": "Third-party integrations"
+    },
+    "scope": {
+      "title": "Scope",
+      "paragraphs": [
+        "This Privacy Policy explains how MazayaGo collects and processes information when you use our website, participate in contests, or interact with connected channels.",
+        "MazayaGo operates the platform and processes data within it; campaign sponsors define campaign rules but do not have direct access to our databases."
+      ]
+    },
+    "collection": {
+      "title": "Information we collect",
+      "paragraphs": [
+        "We collect only the data needed to operate contests, provide support, and secure the platform.",
+        "Depending on the channel, this may include:"
+      ],
+      "items": [
+        "Messaging interaction data such as page-scoped identifiers, channel identifiers, message payloads, answers, and timestamps needed to operate campaigns.",
+        "Website account details such as email or phone number if you choose to register.",
+        "Contest participation details like entries, choices, and reward status.",
+        "Technical logs such as IP address and user-agent for security and fraud prevention.",
+        "Optional information you provide in support requests."
+      ]
+    },
+    "sources": {
+      "title": "Sources of data",
+      "paragraphs": [
+        "We receive information directly from you, from your interactions with our website and connected channels, and from clients who manage campaigns on MazayaGo.",
+        "We do not collect public profile data unless you provide it or it is required to fulfill a contest you joined."
+      ]
+    },
+    "usage": {
+      "title": "How we use data",
+      "items": [
+        "Operate contest and offer flows, including eligibility checks and winner selection.",
+        "Provide customer support and respond to policy requests.",
+        "Prevent fraud, abuse, and security incidents.",
+        "Measure performance using aggregated analytics.",
+        "Comply with legal obligations.",
+        "Process data based on your consent, contractual necessity, or legitimate interests where applicable."
+      ]
+    },
+    "sharing": {
+      "title": "Sharing and disclosure",
+      "paragraphs": [
+        "We do not sell personal data and do not share it for advertising or unrelated purposes.",
+        "Access to data is restricted to authorized MazayaGo personnel under strict security controls."
+      ],
+      "items": [
+        "No sale, rental, or commercial distribution of personal data.",
+        "No third-party access to raw data or user profiles.",
+        "Data is used only to operate MazayaGo services and respond to your requests."
+      ],
+      "noteTitle": "No advertising use",
+      "note": "We do not use personal data for third-party advertising."
+    },
+    "retention": {
+      "title": "Retention",
+      "paragraphs": [
+        "We keep data only as long as needed for the contest, legal, and security purposes.",
+        "Typical retention periods are:"
+      ],
+      "items": [
+        "Contest and participation data: up to 12 months after the campaign ends.",
+        "Security and access logs: up to 90 days.",
+        "Support communications: as long as needed to resolve the request."
+      ],
+      "note": "Retention may be extended when required by law or shortened based on client instructions."
+    },
+    "rights": {
+      "title": "Your rights",
+      "paragraphs": [
+        "You can request access, correction, or deletion of your data.",
+        "We may ask for additional details to verify your request and protect participants."
+      ],
+      "items": [
+        "Access: obtain a copy of relevant data.",
+        "Correction: fix inaccurate or incomplete data.",
+        "Deletion: request removal where applicable.",
+        "Restriction or objection: limit processing in certain cases."
+      ],
+      "cta": "Submit a deletion request"
+    },
+    "security": {
+      "title": "Security measures",
+      "items": [
+        "Encryption at rest for tokens and sensitive secrets.",
+        "Role-based access controls and least-privilege access.",
+        "Monitoring, logging, and incident response procedures.",
+        "Regular reviews of integrations and permissions."
+      ]
+    },
+    "children": {
+      "title": "Children and minors",
+      "paragraphs": [
+        "MazayaGo is not directed to children under 13 and we do not knowingly collect their data.",
+        "If you believe a child has provided information, contact us to delete it."
+      ]
+    },
+    "updates": {
+      "title": "Updates to this policy",
+      "paragraphs": [
+        "We may update this policy to reflect changes in our services or legal requirements.",
+        "The last updated date reflects the most recent revision."
+      ],
+      "cta": "Contact compliance"
+    },
+    "integrations": {
+      "paragraphs": [
+        "MazayaGo may connect with external platforms to deliver campaigns (for example, messaging apps or social networks).",
+        "When you choose to interact through an external channel, your messages and channel identifiers are processed on that platform under its own policies.",
+        "For Meta Messenger, this may include PSID (page-scoped), message content, and contest links needed to run the flow and handle deletion requests."
+      ],
+      "title": "Third-party integrations"
+    }
+  },
+  "PoliciesTerms": {
+    "title": "Terms & Conditions",
+    "description": "Rules for using MazayaGo and participating in contests and offers.",
+    "subtitle": "Please read carefully before using the platform.",
+    "badges": {
+      "primary": "Terms"
+    },
+    "footerNote": "These terms apply to all users and participants unless a specific campaign includes additional rules.",
+    "toc": {
+      "acceptance": "Acceptance of terms",
+      "eligibility": "Eligibility",
+      "account": "Accounts and accuracy",
+      "acceptable": "Acceptable use",
+      "contests": "Contest rules",
+      "prizes": "Prizes",
+      "ip": "Intellectual property",
+      "thirdparty": "Third-party services",
+      "liability": "Limitation of liability",
+      "termination": "Suspension and termination",
+      "changes": "Changes to terms",
+      "contact": "Contact"
+    },
+    "acceptance": {
+      "title": "Acceptance of terms",
+      "paragraphs": [
+        "By accessing MazayaGo or participating in a contest, you agree to these Terms and our Privacy Policy.",
+        "If you do not agree, do not use the platform."
+      ]
+    },
+    "eligibility": {
+      "title": "Eligibility",
+      "items": [
+        "You must meet the legal age and eligibility requirements in your country.",
+        "Minimum age may vary by campaign (for example 13+ or 18+), as required by local law.",
+        "Employees, contractors, or immediate family of a campaign sponsor may be excluded.",
+        "We may require verification before awarding prizes."
+      ]
+    },
+    "account": {
+      "title": "Accounts and accuracy",
+      "paragraphs": [
+        "Creating an account is optional for some experiences; if you create one, provide accurate information.",
+        "You are responsible for safeguarding your credentials and activity under your account."
+      ]
+    },
+    "acceptable": {
+      "title": "Acceptable use",
+      "items": [
+        "Do not use MazayaGo to submit false entries, automate participation, or manipulate outcomes.",
+        "Do not attempt to access systems or data you are not authorized to access.",
+        "Respect intellectual property and community standards.",
+        "Do not upload unlawful, harmful, or abusive content."
+      ]
+    },
+    "contests": {
+      "title": "Contest rules",
+      "paragraphs": [
+        "Each contest may include specific rules, deadlines, and eligibility criteria.",
+        "We reserve the right to disqualify entries that violate rules or show fraud.",
+        "Decisions on winners are final, subject to verification."
+      ]
+    },
+    "prizes": {
+      "title": "Prizes",
+      "items": [
+        "Prizes are provided as described and may be substituted when necessary.",
+        "We are not responsible for delays caused by third parties or shipping.",
+        "Taxes or duties are the responsibility of the winner where applicable."
+      ]
+    },
+    "ip": {
+      "title": "Intellectual property",
+      "paragraphs": [
+        "MazayaGo, its logos, and the platform content are owned by MazayaGo or its licensors.",
+        "By submitting content, you grant us a limited license to use it for operating the contest and showcasing winners."
+      ]
+    },
+    "thirdparty": {
+      "title": "Third-party services",
+      "paragraphs": [
+        "The platform may link to or integrate with external services; their terms and privacy policies apply to your use of those services.",
+        "MazayaGo is not responsible for the availability, content, or practices of those external services."
+      ]
+    },
+    "liability": {
+      "title": "Limitation of liability",
+      "paragraphs": [
+        "The service is provided as-is and as-available to the extent permitted by law.",
+        "Our liability is limited to direct damages and capped to the amount you paid to use the service, if any."
+      ]
+    },
+    "termination": {
+      "title": "Suspension and termination",
+      "paragraphs": [
+        "We may suspend or terminate access for violation of these terms or for security reasons.",
+        "You may stop using the service at any time."
+      ]
+    },
+    "changes": {
+      "title": "Changes to terms",
+      "paragraphs": [
+        "We may update these terms from time to time.",
+        "Continued use after changes means acceptance of the updated terms."
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "paragraphs": [
+        "For questions about these terms or disputes, contact our support team.",
+        "We may need additional information to respond to your request."
+      ],
+      "cta": "Contact support"
+    }
+  },
+  "PoliciesDeletion": {
+    "title": "Data Deletion Instructions",
+    "description": "How to request deletion of data associated with MazayaGo across web and connected channels.",
+    "subtitle": "Use the form below or email our compliance team.",
+    "badges": {
+      "primary": "Data deletion"
+    },
+    "footerNote": "Deletion requests are processed in accordance with legal obligations and campaign requirements.",
+    "toc": {
+      "overview": "Overview",
+      "covered": "What can be deleted",
+      "identifiers": "Required identifiers",
+      "verification": "Verification",
+      "form": "Request form",
+      "timeline": "Processing timeline",
+      "outcomes": "Possible outcomes",
+      "limitations": "Limitations",
+      "contact": "Contact"
+    },
+    "overview": {
+      "title": "Overview",
+      "paragraphs": [
+        "MazayaGo supports data deletion requests for our website, contests, and connected channels.",
+        "You can request deletion of Messenger data, website data, or both."
+      ],
+      "calloutTitle": "Important",
+      "calloutBody": "We only collect the minimum identifiers needed to locate your data."
+    },
+    "covered": {
+      "title": "What data can be deleted",
+      "items": [
+        "Contest participation records, entries, and responses.",
+        "Messaging conversation metadata and answers stored for campaign operation.",
+        "Website account details if you created an account.",
+        "Data from connected channels used to run campaigns, when applicable.",
+        "Support communications related to the request."
+      ]
+    },
+    "identifiers": {
+      "title": "Identifiers we use",
+      "paragraphs": [
+        "To locate your records, we need at least one identifier such as a conversation or channel reference, contest URL, or Page/channel name or ID.",
+        "If you do not have a conversation reference or PSID, use the contest link or Page/channel name; email (if available) can also help us locate your request."
+      ],
+      "items": [
+        "Conversation or session reference (such as Messenger MT or another channel ID).",
+        "Page or channel name or ID.",
+        "Campaign or contest URL.",
+        "PSID for Meta Messenger users only (if available)."
+      ],
+      "noteTitle": "About channel identifiers",
+      "noteBody": "Some platforms provide special identifiers (such as PSID in Meta Messenger) and they may not be visible to users. Use the contest link or channel name if you do not have them."
+    },
+    "verification": {
+      "title": "Verification",
+      "paragraphs": [
+        "To protect participants, we may ask for additional details to confirm ownership.",
+        "Requests without sufficient information may be delayed or rejected."
+      ]
+    },
+    "requestForm": {
+      "title": "Submit a deletion request"
+    },
+    "timeline": {
+      "title": "Processing timeline",
+      "paragraphs": [
+        "We aim to respond within 30 days, and sooner for most requests.",
+        "Complex requests or legal holds may require more time."
+      ]
+    },
+    "outcomes": {
+      "title": "Possible outcomes",
+      "paragraphs": [
+        "We will confirm deletion or provide a reason if some data must be retained.",
+        "Where legally required, we may keep limited records for fraud prevention or compliance."
+      ]
+    },
+    "limitations": {
+      "title": "Limitations",
+      "items": [
+        "We cannot delete data needed to comply with law, resolve disputes, or enforce our terms.",
+        "Backups or legal holds may require limited retention for security and compliance.",
+        "Some aggregated analytics may be retained as they do not identify individuals.",
+        "Deletion from third-party systems depends on their policies."
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "paragraphs": [
+        "If the form does not work, email our compliance team using the template below.",
+        "Include your request ID if you have one."
+      ],
+      "cta": "Email support"
+    },
+    "form": {
+      "title": "Request form",
+      "subtitle": "Provide at least one identifier so we can locate your data.",
+      "requestTypeLabel": "Request type",
+      "requestTypes": {
+        "messenger": "Messaging channels",
+        "website": "Website",
+        "both": "Website + messaging"
+      },
+      "emailLabel": "Email (optional)",
+      "emailPlaceholder": "you@example.com",
+      "messengerMtLabel": "Conversation/channel reference (optional)",
+      "messengerMtPlaceholder": "Paste the conversation reference (e.g., Messenger MT)",
+      "messengerMtHint": "Use any reference provided by the messaging platform.",
+      "psidLabel": "PSID (optional - Meta Messenger only)",
+      "psidPlaceholder": "Page-scoped Meta ID (if available)",
+      "psidHint": "If you do not know it, use the contest URL or Page/channel details.",
+      "pageLabel": "Page/channel name or ID (optional)",
+      "pagePlaceholder": "Page or channel name or ID",
+      "contestUrlLabel": "Contest or campaign URL (optional)",
+      "contestUrlPlaceholder": "https://www.mazayago.com/...",
+      "notesLabel": "Notes (optional)",
+      "notesPlaceholder": "Any additional context to help locate your data.",
+      "errors": {
+        "missingLocator": "Provide at least one of conversation/channel reference, contest URL, Page/channel name or PSID (if available).",
+        "submitFailed": "Unable to submit the request. Please try again.",
+        "submitFailedTryLater": "Something went wrong. Please try again later."
+      },
+      "submit": "Submit request",
+      "submitting": "Submitting...",
+      "responseTime": "We usually respond within 30 days.",
+      "success": {
+        "message": "Request received. Your reference ID is",
+        "fallback": "pending"
+      },
+      "emailTemplate": {
+        "title": "Email fallback",
+        "subtitle": "Use this template if you prefer email.",
+        "copy": "Copy template",
+        "copied": "Copied",
+        "open": "Open email",
+        "subject": "MazayaGo data deletion request",
+        "greeting": "Hello,",
+        "requestLine": "I would like to request deletion of my data associated with MazayaGo.",
+        "closing": "Thank you.",
+        "labels": {
+          "requestType": "Request type",
+          "email": "Email",
+          "messengerMt": "Messenger MT",
+          "psid": "PSID",
+          "page": "Page",
+          "contestUrl": "Contest URL",
+          "notes": "Notes",
+          "reference": "Request ID"
+        }
+      }
+    }
+  },
+  "PoliciesCookies": {
+    "title": "Cookie Policy",
+    "description": "How MazayaGo uses cookies and similar technologies.",
+    "subtitle": "You can manage cookie preferences in your browser settings.",
+    "badges": {
+      "primary": "Cookies"
+    },
+    "footerNote": "Essential cookies are required for core functionality.",
+    "toc": {
+      "what": "What are cookies",
+      "categories": "Cookie categories",
+      "duration": "How long cookies stay",
+      "management": "How to manage cookies",
+      "thirdparty": "Third-party cookies",
+      "updates": "Updates",
+      "contact": "Contact"
+    },
+    "what": {
+      "title": "What are cookies",
+      "paragraphs": [
+        "Cookies are small text files stored on your device when you visit our website.",
+        "We use cookies and similar technologies (such as local storage or pixels) to keep sessions secure and improve the experience."
+      ]
+    },
+    "categories": {
+      "title": "Cookie categories",
+      "items": [
+        "Essential: authentication, security, and session management.",
+        "Preferences: language and display settings.",
+        "Analytics: aggregated usage metrics and performance.",
+        "Campaign: remembering contest progress when enabled."
+      ]
+    },
+    "duration": {
+      "title": "How long cookies stay",
+      "paragraphs": [
+        "Some cookies are session-based and expire when you close your browser.",
+        "Others are persistent and remain for a limited period to remember preferences."
+      ]
+    },
+    "management": {
+      "title": "How to manage cookies",
+      "paragraphs": [
+        "You can clear or block cookies in your browser settings.",
+        "Blocking essential cookies may affect site functionality."
+      ]
+    },
+    "thirdparty": {
+      "title": "Third-party cookies",
+      "paragraphs": [
+        "We may use third-party tools for analytics or embedded content.",
+        "These providers may set their own cookies subject to their policies."
+      ]
+    },
+    "updates": {
+      "title": "Updates",
+      "paragraphs": [
+        "We may update this policy as technologies or legal requirements change.",
+        "The last updated date shows the latest revision."
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "paragraphs": [
+        "If you have questions about cookies, contact our support team."
+      ],
+      "cta": "Contact support"
+    }
+  },
+  "PoliciesContact": {
+    "title": "Contact & Support",
+    "description": "How to reach MazayaGo for support, privacy, and compliance.",
+    "subtitle": "We prioritize verified requests and respond within our stated timeframe.",
+    "badges": {
+      "primary": "Support"
+    },
+    "footerNote": "For urgent issues, include as much context as possible.",
+    "toc": {
+      "channels": "Support channels",
+      "hours": "Working hours",
+      "response": "Response time",
+      "compliance": "Privacy and compliance",
+      "business": "Business inquiries"
+    },
+    "channels": {
+      "title": "Support channels",
+      "paragraphs": [
+        "Email is the primary support channel for MazayaGo.",
+        "Include your campaign or Page details for faster assistance."
+      ],
+      "cta": "Email support",
+      "calloutTitle": "Tip",
+      "calloutBody": "Using the official email helps us verify your request faster."
+    },
+    "hours": {
+      "title": "Working hours",
+      "paragraphs": [
+        "Our team operates Sunday to Thursday, 9:00 AM to 6:00 PM (GMT+3), and hours may vary during campaigns or holidays.",
+        "We monitor critical issues outside these hours when possible."
+      ]
+    },
+    "response": {
+      "title": "Response time",
+      "paragraphs": [
+        "We typically respond within 1 to 3 business days.",
+        "Compliance or deletion requests may take up to 30 days."
+      ]
+    },
+    "compliance": {
+      "title": "Privacy and compliance",
+      "paragraphs": [
+        "Use this contact for privacy rights, data deletion, or policy questions.",
+        "We may request additional information to verify your identity."
+      ],
+      "cta": "View policies"
+    },
+    "business": {
+      "title": "Business inquiries",
+      "paragraphs": [
+        "For partnerships or enterprise support, include your company name and requirements.",
+        "We will route your request to the appropriate team."
+      ]
+    }
+  },
+  "OfferCodes": {
+    "page": {
+      "loading": "Loading codes...",
+      "error": "Failed to load codes.",
+      "notFound": "Offer not found or not published yet."
+    },
+    "header": {
+      "eyebrow": "QR codes",
+      "title": "Hashed code inventory",
+      "subtitle": "Monitor batch performance and redemptions in one view.",
+      "subtitleWithTitle": "Monitor {title} batches and redemptions.",
+      "backStatus": "Back to status",
+      "refresh": "Refresh data",
+      "openManager": "Open codes manager"
+    },
+    "storageNote": {
+      "label": "Security note",
+      "body": "Codes are stored as hashed values in a protected column, so raw codes stay hidden from others."
+    },
+    "stats": {
+      "total": "Total codes",
+      "available": "Available",
+      "exhausted": "Exhausted",
+      "used": "Used",
+      "availableHelper": "{count} available",
+      "readyHelper": "{percent}% ready",
+      "usedHelper": "{percent}% used",
+      "remainingHelper": "{percent}% remaining"
+    },
+    "state": {
+      "loadingInventory": "Loading code inventory...",
+      "emptyTitle": "No codes found",
+      "emptyBody": "Adjust filters or choose another batch.",
+      "loadError": "Unable to load codes."
+    },
+    "batchList": {
+      "title": "Batch list",
+      "count": "{count} batches",
+      "all": "All batches",
+      "overview": "Overview",
+      "overviewBody": "All batches in one place.",
+      "remaining": "Remaining {remaining} of {total}"
+    },
+    "batchFocus": {
+      "title": "Batch focus",
+      "all": "All batches",
+      "descriptionSelected": "Key batch details and usage at a glance.",
+      "descriptionAll": "All batches combined for a full overview.",
+      "clear": "Clear batch",
+      "selectHint": "Pick a batch to see details and usage.",
+      "usage": "Usage rate",
+      "usageValue": "{percent}% used"
+    },
+    "meta": {
+      "pattern": "Pattern",
+      "created": "Created",
+      "tag": "Tag",
+      "sku": "SKU",
+      "expires": "Expires"
+    },
+    "filters": {
+      "status": "Status",
+      "statusAll": "All statuses",
+      "statusUnused": "Unused",
+      "statusActive": "Active",
+      "statusExhausted": "Exhausted",
+      "pageSize": "Page size",
+      "rows": "{count} rows",
+      "showFullHash": "Show full hash",
+      "matchCount": "{count} codes match.",
+      "reset": "Reset filters"
+    },
+    "table": {
+      "codeHash": "Code hash",
+      "status": "Status",
+      "uses": "Uses",
+      "lastActivity": "Last activity",
+      "noActivity": "No activity yet.",
+      "copy": "Copy",
+      "copied": "Copied"
+    },
+    "pagination": {
+      "showing": "Showing {start}-{end} of {total}",
+      "page": "Page {current} of {totalPages}",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "status": {
+      "unused": "Unused",
+      "active": "Active",
+      "exhausted": "Exhausted"
+    },
+    "common": {
+      "notAvailable": "N/A",
+      "multiple": "Multiple"
+    }
+  },
+  "OfferStatus": {
+    "nav": {
+      "overview": "Overview",
+      "progress": "Team progress",
+      "predictionResults": "Prediction results",
+      "answers": "Answers",
+      "winners": "Winners",
+      "grading": "Review & grading",
+      "judges": "Judges"
+    },
+    "statusLabels": {
+      "active": "Active",
+      "paused": "Paused",
+      "ended": "Ended",
+      "draft": "Draft",
+      "correct": "Correct",
+      "validated": "Validated",
+      "incorrect": "Incorrect",
+      "pending": "Pending",
+      "inReview": "In review",
+      "needsReview": "Needs review",
+      "submitted": "Submitted"
+    },
+    "page": {
+      "loading": "Loading live status data...",
+      "loadError": "Failed to load contest status.",
+      "notFound": "We couldn't find this offer. Double-check the slug or try again later.",
+      "pinned": {
+        "status": "Status",
+        "winners": "Winners",
+        "entries": "Entries"
+      },
+      "pinnedNavLabel": "Pinned section navigator"
+    },
+    "overview": {
+      "eyebrow": "Overview & Insights",
+      "viewPublic": "View public offer",
+      "openManager": "Open manager",
+      "note": "Tap any Overview & Insights metric to open its detailed section below.",
+      "stage": {
+        "tbd": "Schedule TBD",
+        "range": "{start} - {end}",
+        "opens": "Opens {date}",
+        "closes": "Closes {date}"
+      },
+      "links": {
+        "qrBatches": "QR batches",
+        "winnersPage": "Winners page",
+        "auditLogs": "Audit logs"
+      }
+    },
+    "metrics": {
+      "prizesConfigured": "Prizes configured",
+      "publishedWinners": "Published winners",
+      "entriesSubmitted": "Entries submitted",
+      "galleryItems": "Gallery items",
+      "predictionResults": "Prediction results",
+      "roundsTasks": "Rounds & tasks",
+      "judgingPanel": "Judging panel",
+      "helpers": {
+        "prizesMax": "{count} winners max",
+        "prizesNoLimit": "No winners limit set",
+        "winnersLive": "Live on winners page",
+        "winnersPending": "Awaiting announcement",
+        "entriesPending": "{count} pending review",
+        "gallerySynced": "Media synced from gallery",
+        "galleryEmpty": "No gallery assets yet",
+        "predictionReady": "Matches ready to score",
+        "predictionEmpty": "No matches added yet",
+        "roundsMapped": "Rounds mapped to tasks",
+        "roundsUnassigned": "Tasks not assigned to rounds yet",
+        "judgesReview": "Tap to review judges assignments",
+        "gradingSummary": "Total entries {total}"
+      },
+      "values": {
+        "roundsTasks": "{rounds} rounds / {tasks} tasks",
+        "judgesCount": "{count} judges",
+        "gradingCounts": "{pending} pending / {finalized} finalized"
+      },
+      "gradingReview": "Review & grading"
+    },
+    "progress": {
+      "eyebrow": "Progress & Team",
+      "title": "Tasks and judging",
+      "subtitle": "Monitor task performance and judge assignments at a glance.",
+      "tasksTitle": "Tasks & rounds",
+      "manageTasks": "Manage tasks",
+      "noTasks": "No tasks configured yet. Add rounds so reviewers can score submissions.",
+      "task": {
+        "untitled": "Untitled task",
+        "noDescription": "No description provided.",
+        "roundLabel": "Round {code}",
+        "optionLabel": "Option {index}",
+        "points": "{points} pts"
+      },
+      "judgesTitle": "Judging panel",
+      "manageJudges": "Manage judges",
+      "noJudges": "No judges assigned yet.",
+      "judgeFallback": "Judge {index}"
+    },
+    "entries": {
+      "eyebrow": "Answers review",
+      "title": "Correct & incorrect responses",
+      "subtitle": "Filter the responses list to focus on correct or incorrect entries, then search by keyword.",
+      "stats": "{correct} correct | {incorrect} incorrect | {total} total",
+      "filters": {
+        "all": "All",
+        "correct": "Correct",
+        "incorrect": "Incorrect",
+        "allTasks": "All tasks",
+        "noTask": "No task"
+      },
+      "searchPlaceholder": "Search answers, names, or keywords",
+      "empty": "No responses match the current filter.",
+      "lastEntry": "Last entry {time}",
+      "scoreLine": "Score {scoreA} - {scoreB}",
+      "winnerLine": "Winner {winner}",
+      "scoreBadge": "Score {score}",
+      "taskLabel": "Task {index}",
+      "taskLabelShort": "Task {code}",
+      "roundLabel": "Round {code}",
+      "fallbackTitle": "Entry submitted",
+      "participantFallback": "Participant",
+      "userLabel": "User {suffix}",
+      "justNow": "Just now"
+    },
+    "winners": {
+      "eyebrow": "Winners Control",
+      "title": "Select winners & link prizes",
+      "descriptionEveryCode": "Every validated code becomes a winner. Publish them and link prizes.",
+      "descriptionDefault": "Review eligible entries, publish winners, then attach the correct prize for each announcement.",
+      "eligibleCodes": "eligible codes",
+      "eligibleEntries": "eligible entries",
+      "publishAllCodes": "Publish all eligible codes",
+      "publishWinners": "Publish winners",
+      "drawWinners": "Draw winners",
+      "publishing": "Publishing...",
+      "drawing": "Drawing...",
+      "eligibleCodesNote": "Will publish {count} eligible codes.",
+      "maxWinnersNote": "Will publish up to {count} winners.",
+      "prizesOverviewTitle": "Prizes overview",
+      "prizesCount": "{count} prize tiers",
+      "prizesNone": "No prizes defined",
+      "editPrizes": "Edit prizes",
+      "prizesEmpty": "Add cash, residency, or in-kind prizes so participants know what to expect.",
+      "prizeUnnamed": "Unnamed prize",
+      "prizeNoDescription": "No description provided.",
+      "prizeQuantity": "{count} available",
+      "candidatesTitle": "Candidate entries",
+      "noEligibleEntries": "No eligible entries yet.",
+      "scoreBadge": "Score {score}",
+      "alreadySelected": "Already selected",
+      "markWinner": "Mark as winner",
+      "linkingTitle": "Prize linking",
+      "winnersInView": "Winners in view: {count}",
+      "needsPrize": "Needs prize",
+      "showAll": "Show all",
+      "noWinners": "No winners published yet.",
+      "publishedAt": "Published {date}",
+      "awaitingPublication": "Awaiting publication",
+      "noPrize": "No prize",
+      "linking": "Linking...",
+      "saveLink": "Save link",
+      "prizeNotLinked": "Prize not linked",
+      "entryId": "Entry {id}",
+      "fallbackName": "Winner",
+      "linkPrizeError": "Unable to link prize.",
+      "drawError": "Unable to draw winners.",
+      "noEligibleCodes": "No eligible codes to publish yet.",
+      "transparencyTitle": "Draw transparency",
+      "setupSeed": "Setup transparency (Seed)",
+      "seedCommit": "Seed commit",
+      "seedReveal": "Seed reveal",
+      "seedRevealNotPublished": "Not published",
+      "externalEntropy": "External entropy",
+      "publishConfirmTitle": "Confirm winners publication",
+      "publishConfirmBody": "You are about to publish winners. Contest configuration will be locked after publish.",
+      "lockedAfterPublish": "Locked after publish",
+      "candidatesCount": "Eligible candidates: {count}",
+      "publishedWinnersCount": "Published winners: {count}",
+      "proofLink": "Open proof",
+      "emptyValue": "-",
+      "hiddenValue": "••••••••",
+      "seedNotRequired": "Not required",
+      "seedModalTitle": "Seed reveal backup",
+      "seedSafetyWarning": "Keep this Seed Reveal in a safe place — it cannot be recovered if lost.",
+      "mode": {
+        "everyCodeAuto": "Auto publish — every valid code wins",
+        "deterministic": "Deterministic publish mode",
+        "random": "Randomized draw mode"
+      },
+      "prizeSettings": {
+        "title": "Prize settings",
+        "configured": "Prizes configured: {count}",
+        "tiers": "Prize tiers: {count}",
+        "maxWinners": "Max winners: {count}",
+        "subtitle": "Review configured prizes and quantities before publishing winners.",
+        "manage": "Manage prizes in Manager",
+        "empty": "No prizes configured yet. Add prizes from Manager to continue.",
+        "quantity": "Qty: {count}",
+        "amount": "Value: {amount} {currency}"
+      },
+      "transparency": {
+        "title": "Draw transparency",
+        "seedCommit": "Seed commit",
+        "seedReveal": "Seed reveal",
+        "externalEntropy": "External entropy",
+        "show": "Show",
+        "hide": "Hide",
+        "copy": "Copy",
+        "notPublished": "Not published yet",
+        "copied": "Copied",
+        "editEntropy": "Edit entropy"
+      },
+      "summary": {
+        "title": "Final summary before publish",
+        "status": "Status",
+        "entriesTotal": "Entries total",
+        "eligibleCandidates": "Eligible candidates",
+        "publishedWinners": "Published winners",
+        "selectionMethod": "Selection method",
+        "take": "Take",
+        "locked": "Locked",
+        "seedReady": "Seed ready",
+        "yes": "Yes",
+        "no": "No"
+      },
+      "help": {
+        "seedCommit": "A hash commitment created before publish to prove fairness.",
+        "seedReveal": "Secret reveal used once at publish; keep it safe.",
+        "externalEntropy": "Optional public entropy source to add randomness.",
+        "selectionMethod": "How winners are selected (random/top score/fastest/every code).",
+        "take": "Number of winners to publish in this run.",
+        "locked": "After publish, contest winner settings are locked."
+      },
+      "publish": {
+        "confirmTitle": "Confirm winners publication",
+        "confirmBody": "You are about to publish winners electronically. Configuration will be locked after publish.",
+        "confirmCta": "Confirm publish electronically"
+      }
+    },
+    "prediction": {
+      "eyebrow": "Prediction results",
+      "title": "Record match outcomes",
+      "subtitle": "Select the correct winner and enter final scores so predictions can be corrected.",
+      "notice": {
+        "noOptions": "No options configured for this match.",
+        "selectOption": "Select the correct option.",
+        "enterScores": "Enter both scores.",
+        "invalidScores": "Scores must be non-negative integers.",
+        "inferWinner": "Unable to infer winner for this option.",
+        "scoreMismatch": "Scores do not match the selected winner.",
+        "saveError": "Unable to save result.",
+        "saved": "Result saved."
+      },
+      "empty": "No prediction matches found yet.",
+      "matchLabel": "Match",
+      "recorded": "Recorded",
+      "awaiting": "Awaiting result",
+      "winnerLabel": "Winner",
+      "scoreLabel": "Score {team}",
+      "save": "Save result",
+      "saving": "Saving...",
+      "teamA": "Team A",
+      "teamB": "Team B",
+      "optionLabel": "Option {index}"
+    },
+    "grading": {
+      "eyebrow": "Review & correction",
+      "title": "Correction & review",
+      "subtitle": "Auto grading is handled in the database, while judges can confirm final statuses from this section.",
+      "autoGraded": "Auto graded",
+      "manualReview": "Manual review",
+      "autoGradedNoEdit": "This result is automatically graded and cannot be edited manually.",
+      "predictionAutoGradedHint": "This entry is auto-graded only after the official match result is entered.",
+      "score": "Score",
+      "totalScore": "Total score",
+      "maxScore": "Max score",
+      "preview": "Preview",
+      "openFile": "Open file",
+      "openImage": "Open image",
+      "openVideo": "Open video",
+      "tabs": {
+        "mine": "My grading",
+        "queue": "Review queue"
+      },
+      "summary": {
+        "pending": "Pending",
+        "correct": "Correct/Validated",
+        "incorrect": "Incorrect",
+        "total": "Total",
+        "auto": "Auto validated"
+      },
+      "participantFallback": "Participant",
+      "userLabel": "User {suffix}",
+      "justNow": "Just now",
+      "mine": {
+        "signIn": "Sign in to view your grading timeline.",
+        "empty": "No entries yet for your account.",
+        "noTask": "No task assigned",
+        "submittedAt": "Submitted {date}",
+        "score": "Score {score}",
+        "mcqChoice": "MCQ choice",
+        "answerText": "Answer text",
+        "codeSubmitted": "Submitted code",
+        "codeHashOnly": "Masked code (hash matched)",
+        "asset": "Asset",
+        "openAsset": "Open asset",
+        "evidence": "Evidence",
+        "openEvidence": "Open evidence",
+        "prediction": "Prediction",
+        "notSet": "Not set",
+        "timeline": {
+          "submitted": "Submitted",
+          "autoCheck": "Auto-check",
+          "manualPending": "Manual review pending",
+          "finalStatus": "Final status"
+        }
+      },
+      "queue": {
+        "readOnly": "Read-only: owner/judge permission is required for review actions.",
+        "filters": {
+          "pending": "Pending",
+          "all": "All statuses",
+          "correct": "Correct",
+          "incorrect": "Incorrect",
+          "allTasks": "All tasks"
+        },
+        "taskLabel": "Task {index}",
+        "searchPlaceholder": "Search by user, id, answer...",
+        "empty": "No queue items match these filters.",
+        "noDetails": "No additional details.",
+        "markCorrect": "Mark CORRECT",
+        "markIncorrect": "Mark INCORRECT",
+        "reviewSaved": "Review status updated.",
+        "reviewFailed": "Unable to update review status.",
+        "loadError": "Unable to load review queue.",
+        "predictionAutoGraded": "Manual review is blocked: this prediction entry is auto-graded after official result.",
+        "predictionHint": "This entry is graded automatically after official result is entered.",
+        "loading": "Loading queue items...",
+        "paginationMeta": "Total {total} • Offset {offset} • Limit {limit}",
+        "pageLabel": "Page {page}",
+        "taskPoints": "{points} pts",
+        "prev": "Previous",
+        "next": "Next"
+      },
+      "prediction": {
+        "resultSet": "Official match result: SET",
+        "resultNotSet": "Official match result: NOT SET",
+        "awaitingResult": "Awaiting official result. Your entry will be graded after the official result is entered.",
+        "jumpToResults": "Set match result"
+      },
+      "consoleTitle": "Correction & review console",
+      "backToStatus": "Back to status",
+      "summaryOnly": {
+        "title": "Grading summary",
+        "subtitle": "Review grading progress here, then open the full console to manage review actions.",
+        "howItWorks": "How grading works",
+        "openConsole": "Open full grading console",
+        "rules": {
+          "mcq": "MCQ tasks are auto-graded based on the correct option.",
+          "code": "Code entries are auto-validated by code validity and redemption limits.",
+          "upload": "Upload/evidence entries may require manual judge review.",
+          "prediction": "Match predictions are auto-graded after official results are set.",
+          "manual": "Manual review actions are available only for authorized reviewers.",
+          "text": "Text/riddle answers are reviewed manually by judges."
+        }
+      }
+    },
+    "errors": {
+      "forbidden": "You are not allowed to perform this action.",
+      "seedRevealRequired": "Seed reveal is required before publishing winners.",
+      "predictionNeedsOfficialResult": "This is a match prediction contest: grading runs after official result is entered, then winners can be published.",
+      "seedMismatch": "Seed reveal does not match seed commit.",
+      "cryptoUnsupported": "Your browser doesn't support Web Crypto; cannot generate seed commit.",
+      "copyFailed": "Failed to copy text.",
+      "seedCommitMissing": "Seed commit/reveal is required before publish.",
+      "prizeRequired": "Prize is required."
+    },
+    "toasts": {
+      "seedSetupSuccess": "Seed created successfully. Keep your seed reveal in a safe place.",
+      "winnersPublishedSuccess": "Winners published successfully.",
+      "prizeUpdatedSuccess": "Prize link updated successfully.",
+      "seedRevealCopied": "Seed reveal copied."
+    },
+    "actions": {
+      "show": "Show",
+      "hide": "Hide",
+      "copy": "Copy",
+      "ok": "OK",
+      "cancel": "Cancel",
+      "confirm": "Confirm"
+    },
+    "prizes": {
+      "summaryTitle": "Prize summary",
+      "manageButton": "Manage prizes",
+      "configured": "Prizes configured: {count}",
+      "tiers": "Prize tiers: {count}",
+      "maxWinners": "Max winners: {count}",
+      "noneHint": "No prizes configured yet.",
+      "linkSectionTitle": "Winner prize linking",
+      "unassignedCount": "Unassigned winners: {count}",
+      "bulkAssignTitle": "Bulk assign prize",
+      "bulkAssignButton": "Bulk assign",
+      "bulkAssignSuccess": "Prize assigned in bulk successfully.",
+      "autoAssignedSuccess": "Prize linked automatically after publish.",
+      "bulkAssignHintMultiplePrizes": "Multiple prize tiers configured. Use bulk assign after publishing.",
+      "onlyUnassigned": "Only unassigned"
+    }
+  },
+  "OfferWinnersPage": {
+    "page": {
+      "loading": "Loading winners...",
+      "notFound": "Offer not found."
+    },
+    "hero": {
+      "eyebrow": "Official winners",
+      "totalWinners": "Total winners",
+      "selection": "Selection",
+      "status": "Status",
+      "timeline": "Timeline",
+      "timelineRange": "{start} - {end}",
+      "tba": "TBA"
+    },
+    "content": {
+      "title": "Celebrated winners",
+      "backToOffer": "Back to offer",
+      "empty": "No winners have been announced yet. Check again soon."
+    },
+    "spotlight": {
+      "label": "Spotlight"
+    },
+    "winner": {
+      "published": "Published {date}",
+      "prize": "Prize: {prize}",
+      "id": "ID: {id}"
+    },
+    "insights": {
+      "title": "Process insights",
+      "body": "Winners are verified by the organizing team. Announcements are time-stamped and linked to the contest timeline for full transparency."
+    },
+    "debug": {
+      "title": "Debug data"
+    },
+    "fallbacks": {
+      "winnerName": "Winner",
+      "unknownValue": "Unknown",
+      "unknownDate": "Unknown date"
+    }
+  },
+  "OfferAudit": {
+    "page": {
+      "eyebrow": "Governance",
+      "title": "Activity log",
+      "subtitle": "Core actions recorded in one place.",
+      "subtitleWithTitle": "Activity log for {title}.",
+      "backToStatus": "Back to status",
+      "loading": "Loading activity log...",
+      "loadError": "Unable to load activity log.",
+      "logsError": "Unable to load audit entries.",
+      "notFound": "Offer not found or not published yet."
+    },
+    "table": {
+      "timestamp": "Timestamp",
+      "action": "Action",
+      "actor": "Actor",
+      "details": "Details",
+      "empty": "No activity recorded yet.",
+      "system": "System",
+      "unknownDate": "Unknown",
+      "noDetails": "No details recorded."
+    }
+  },
+  "AboutPage": {
+    "hero": {
+      "badge": "About MazayaGo",
+      "title": "We help teams run offers people can trust.",
+      "subtitle": "A simple platform to launch clear offers and track results from start to finish.",
+      "cta": {
+        "primary": "Launch an offer",
+        "secondary": "Talk to the team"
+      },
+      "chips": [
+        "Clear rules",
+        "Verified participation",
+        "Real-time insights",
+        "Built-in governance"
+      ],
+      "stats": [
+        {
+          "label": "Clear launch",
+          "value": "Simple steps",
+          "description": "Plan fast and launch with order."
+        },
+        {
+          "label": "Measurable impact",
+          "value": "Performance views",
+          "description": "Track performance with ease."
+        },
+        {
+          "label": "Participant experience",
+          "value": "Simple and smooth",
+          "description": "Fast journeys and clear messaging."
+        }
+      ],
+      "panel": {
+        "title": "At a glance",
+        "subtitle": "A lightweight operating system for trustworthy campaigns.",
+        "metrics": [
+          {
+            "label": "Setup speed",
+            "value": "Simplified"
+          },
+          {
+            "label": "Governance",
+            "value": "Audit trail"
+          },
+          {
+            "label": "Insights",
+            "value": "Clear summaries"
+          }
+        ],
+        "note": "Built for teams that want clear results and easy reporting."
+      }
+    },
+    "intro": {
+      "eyebrow": "Who we are",
+      "cards": [
+        {
+          "title": "Our mission",
+          "body": "Make interactive offers reliable, measurable, and easy to run.",
+          "note": "Trust by design"
+        },
+        {
+          "title": "Our vision",
+          "body": "Every offer should feel fair, transparent, and rewarding.",
+          "note": "Participant-first"
+        },
+        {
+          "title": "Our team",
+          "body": "Experience across marketing and product for clear experiences.",
+          "note": "Cross-industry expertise"
+        }
+      ]
+    },
+    "values": {
+      "title": "What we value",
+      "subtitle": "The principles that guide our product and partnerships.",
+      "items": [
+        {
+          "title": "Clarity",
+          "description": "Clear data and concise messaging."
+        },
+        {
+          "title": "Fairness",
+          "description": "Published rules and clear outcomes."
+        },
+        {
+          "title": "Reliability",
+          "description": "Stable operations you can rely on."
+        },
+        {
+          "title": "Adaptability",
+          "description": "Flexible templates for any program size."
+        }
+      ]
+    },
+    "platform": {
+      "title": "What the platform delivers",
+      "subtitle": "Everything you need to plan, run, and measure offers.",
+      "points": [
+        "Clear setup for rules, stages, and eligibility.",
+        "Unified communications and organized messaging.",
+        "Dashboards for performance and redemptions.",
+        "Exportable end-of-campaign reports."
+      ],
+      "chips": {
+        "organizers": "Organizers",
+        "participants": "Participants",
+        "teams": "Teams"
+      },
+      "panel": {
+        "label": "Platform posture",
+        "status": "Ready",
+        "metrics": [
+          {
+            "label": "Templates",
+            "value": "Customizable"
+          },
+          {
+            "label": "Messaging",
+            "value": "Centralized"
+          },
+          {
+            "label": "Reporting",
+            "value": "Exportable"
+          },
+          {
+            "label": "Controls",
+            "value": "Role-based"
+          }
+        ],
+        "note": "Built to scale from small launches to enterprise programs."
+      }
+    },
+    "approach": {
+      "title": "How we work",
+      "subtitle": "A simple flow from discovery to ongoing improvement.",
+      "cta": "Explore offers",
+      "steps": [
+        {
+          "title": "Discover",
+          "description": "Define goals, audience, and success metrics."
+        },
+        {
+          "title": "Design",
+          "description": "Map the journey, channels, and rules."
+        },
+        {
+          "title": "Launch",
+          "description": "Launch with clear monitoring."
+        },
+        {
+          "title": "Learn",
+          "description": "Review results and improve."
+        }
+      ]
+    },
+    "trust": {
+      "title": "Trust and governance",
+      "subtitle": "Trust is a standard, not a feature.",
+      "callout": "We minimize data collection and keep permissions clear with published privacy policies.",
+      "panelLabel": "What we commit to",
+      "points": [
+        "Role-based access with change history.",
+        "Clear status and reviewable logs.",
+        "Participant communication you can review.",
+        "Clear privacy and retention policies."
+      ]
+    },
+    "cta": {
+      "title": "Ready to tell your story through an offer?",
+      "subtitle": "Build with confidence or request a quick demo.",
+      "primary": "Start now",
+      "secondary": "Contact us",
+      "tertiary": "Request a demo",
+      "note": "Need help defining your first offer? We can guide the setup.",
+      "panelTitle": "In every launch",
+      "panelBody": "A focused workspace for eligibility, messaging, and outcomes.",
+      "highlights": [
+        "Launch playbooks",
+        "Channel orchestration",
+        "Clear winner flows",
+        "Post-launch reporting"
+      ]
+    }
+  },
+  "HomePage": {
+    "toggle": {
+      "audience": "For Audience",
+      "business": "For Business"
+    },
+    "hero": {
+      "badge": {
+        "audience": "Interactive Campaigns",
+        "business": "Campaign Engine"
+      },
+      "title": {
+        "audience": {
+          "line1": "Win Real Prizes with",
+          "highlight": "Interactive Campaigns"
+        },
+        "business": {
+          "line1": "Your Campaigns",
+          "highlight": "Start Here"
+        }
+      },
+      "subtitle": {
+        "audience": "Join sweepstakes, solve riddles, and predict outcomes — real prizes, transparent results, and a fun experience every time.",
+        "business": "Launch interactive campaigns with ease — transparent sweepstakes, engaging riddles, and exciting predictions that drive real results."
+      },
+      "tagline": {
+        "audience": "✦ Sweepstakes · Riddles · Predictions",
+        "business": "✦ Launch your first campaign with ease"
+      },
+      "cta": {
+        "audience": "Explore Campaigns",
+        "business": "Start Your Campaign"
+      },
+      "ctaSecondary": {
+        "audience": "Learn More",
+        "business": "View Services"
+      }
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "Three interactive services designed to achieve your goals",
+      "raffles": {
+        "title": "Sweepstakes & Prizes",
+        "desc": {
+          "audience": "Participate based on campaign rules and enter the draw — your chance to win valuable prizes.",
+          "business": "Create excitement with transparent sweepstakes that attract customers and drive engagement."
+        }
+      },
+      "riddles": {
+        "title": "Knowledge Riddles",
+        "desc": {
+          "audience": "Test your knowledge and win instant rewards with fun questions.",
+          "business": "Educate your audience about your products in a fun, interactive way."
+        }
+      },
+      "predictions": {
+        "title": "Predictions",
+        "desc": {
+          "audience": "Predict match results and event outcomes — win prizes for being right.",
+          "business": "Connect your brand with exciting events for massive audience engagement."
+        }
+      }
+    },
+    "templates": {
+      "title": "Ready-Made Campaign Templates",
+      "subtitle": "Choose a template and launch a compelling campaign in minutes",
+      "cta": "Use This Template",
+      "daily": {
+        "title": "Daily Sweepstake",
+        "badge": "Most Popular",
+        "desc": "Attract daily visits with a transparent draw mechanism and flexible participation rules."
+      },
+      "riddle": {
+        "title": "Weekly Riddle Series",
+        "badge": "High Engagement",
+        "desc": "Fun questions that build brand awareness and increase interaction."
+      },
+      "prediction": {
+        "title": "Match Prediction",
+        "badge": "Great for Sports",
+        "desc": "Connect your brand with match excitement through automated predictions."
+      }
+    },
+    "why": {
+      "title": "Why MazayaGo?",
+      "subtitle": {
+        "audience": "Features that make your experience better",
+        "business": "Features that make your campaigns more effective"
+      },
+      "audience": {
+        "fairChance": {
+          "title": "Fair Chances",
+          "desc": "Transparent and automated draws"
+        },
+        "easyJoin": {
+          "title": "Easy Participation",
+          "desc": "Join with just one click"
+        },
+        "realPrizes": {
+          "title": "Real Prizes",
+          "desc": "Valuable rewards from real brands"
+        },
+        "guaranteedFun": {
+          "title": "Guaranteed Fun",
+          "desc": "Interactive and engaging experiences"
+        }
+      },
+      "business": {
+        "transparency": {
+          "title": "Full Transparency",
+          "desc": "Results visible to everyone instantly"
+        },
+        "easyLaunch": {
+          "title": "Easy Launch",
+          "desc": "Create your campaign in minutes"
+        },
+        "realData": {
+          "title": "Real Analytics",
+          "desc": "Accurate insights and reports"
+        },
+        "professional": {
+          "title": "Professional Experience",
+          "desc": "Polished interfaces your audience will love"
+        }
+      }
+    },
+    "useCases": {
+      "title": {
+        "audience": "Ways to Participate",
+        "business": "Use Cases"
+      },
+      "subtitle": {
+        "audience": "Choose the way that matches your interests",
+        "business": "Discover how MazayaGo can serve your business"
+      },
+      "business": {
+        "restaurants": {
+          "title": "Restaurants",
+          "service": "Sweepstakes"
+        },
+        "supermarket": {
+          "title": "Supermarkets",
+          "service": "Sweepstakes"
+        },
+        "brands": {
+          "title": "Brands",
+          "service": "Riddles"
+        },
+        "tvChannels": {
+          "title": "TV Channels",
+          "service": "Predictions"
+        },
+        "sportsStores": {
+          "title": "Sports Stores",
+          "service": "Predictions"
+        },
+        "educational": {
+          "title": "Educational Centers",
+          "service": "Riddles"
+        }
+      },
+      "audience": {
+        "shopper": {
+          "title": "Smart Shopper",
+          "service": "Sweepstakes"
+        },
+        "luckHunter": {
+          "title": "Luck Hunter",
+          "service": "Sweepstakes"
+        },
+        "knowledge": {
+          "title": "Knowledge Expert",
+          "service": "Riddles"
+        },
+        "riddleLover": {
+          "title": "Riddle Lover",
+          "service": "Riddles"
+        },
+        "sportsFan": {
+          "title": "Sports Fan",
+          "service": "Predictions"
+        },
+        "seriesFollower": {
+          "title": "Series Follower",
+          "service": "Predictions"
+        }
+      }
+    },
+    "comparison": {
+      "title": "MazayaGo vs Traditional Methods",
+      "subtitle": "Why choose a specialized platform?",
+      "mazayago": "MazayaGo",
+      "traditional": "Traditional Methods",
+      "items": {
+        "automated": {
+          "mazaya": "Automated transparent draws",
+          "traditional": "Manual draws with no verification"
+        },
+        "results": {
+          "mazaya": "Instant visible results",
+          "traditional": "Delayed and unclear results"
+        },
+        "analytics": {
+          "mazaya": "Detailed analytics and reports",
+          "traditional": "No analytics or tracking"
+        },
+        "engagement": {
+          "mazaya": "Measurable engagement",
+          "traditional": "Unstructured interaction"
+        }
+      }
+    },
+    "finalCta": {
+      "title": {
+        "audience": "Ready to Win?",
+        "business": "Ready to Launch?"
+      },
+      "subtitle": {
+        "audience": "Start now and join interactive campaigns with real prizes",
+        "business": "Launch your first campaign and activate real engagement"
+      },
+      "cta": {
+        "audience": "Explore Campaigns",
+        "business": "Start Your Campaign"
+      }
+    },
+    "externalContests": {
+      "title": "External contests now",
+      "subtitle": "See the latest published contests instantly and jump in quickly.",
+      "cta": "View all contests",
+      "loadError": "Unable to load external contests.",
+      "empty": "No published contests right now.",
+      "noCover": "No cover image",
+      "reviewed": "Reviewed",
+      "unreviewed": "Unreviewed",
+      "openPost": "Open post"
+    }
+  },
+  "ServicesPage": {
+    "hero": {
+      "tag": "Our Services",
+      "title": "Interactive Campaign Services",
+      "subtitle": "In each service: what it offers, when to use it, how it's built, and setup options",
+      "cta": "Start a Campaign",
+      "ctaSecondary": "Explore Services"
+    },
+    "audience": {
+      "tag": "User Segments",
+      "title": "Who is this for?",
+      "subtitle": "Whether you manage campaigns for clients or want one for your own business",
+      "partner": {
+        "title": "Service Partners",
+        "desc": "Agencies and professionals who manage campaigns for multiple clients",
+        "a": "Manage campaigns for multiple clients from one place",
+        "b": "Deliver organized, measurable campaign packages",
+        "c": "Clear reports that showcase your value as a partner"
+      },
+      "provider": {
+        "title": "Campaign Providers",
+        "desc": "Businesses and brands that run campaigns directly for their audience",
+        "a": "Launch campaigns directly tied to your products or events",
+        "b": "Drive real engagement: followers, reviews, visits, sales",
+        "c": "Full control over rules, prizes, and participation channels"
+      }
+    },
+    "howItWorks": {
+      "tag": "How It Works",
+      "title": "How does MazayaGo work?",
+      "subtitle": "The same approach works for partners managing multiple campaigns and providers running their own",
+      "steps": {
+        "s1": {
+          "title": "Choose campaign type",
+          "desc": "Sweepstakes, contests, or predictions — based on your goal"
+        },
+        "s2": {
+          "title": "Set up campaign",
+          "desc": "Duration, prizes, participation rules, and interaction channel"
+        },
+        "s3": {
+          "title": "Publish campaign",
+          "desc": "Share through your channels and links, with optional QR code support"
+        },
+        "s4": {
+          "title": "Track participation",
+          "desc": "Encourage your audience and monitor engagement throughout"
+        },
+        "s5": {
+          "title": "Close and announce results",
+          "desc": "Winners are selected automatically based on campaign rules with clear result announcements"
+        },
+        "s6": {
+          "title": "Extract insights",
+          "desc": "Document results and share with your team or client to show campaign impact"
+        }
+      }
+    },
+    "goals": {
+      "tag": "Goals Map",
+      "title": "What do you want to achieve?",
+      "subtitle": "Choose the path that fits your client or business",
+      "sales": {
+        "title": "Increase Sales or Visits",
+        "desc": "Link participation to purchases or physical visits via QR codes"
+      },
+      "followers": {
+        "title": "Grow Followers & Engagement",
+        "desc": "Drive follows, reviews, messages, and social interactions"
+      },
+      "buzz": {
+        "title": "Create Buzz Around an Event",
+        "desc": "Build excitement with predictions or sweepstakes tied to events"
+      }
+    },
+    "serviceDetails": {
+      "tag": "Services",
+      "title": "MazayaGo Services",
+      "subtitle": "In each service: what it offers, when to use it, how it's built, and setup options",
+      "labels": {
+        "offers": "What it offers",
+        "bestFor": "Best for"
+      },
+      "stepsTitle": "Campaign Build Steps",
+      "sweepstakes": {
+        "title": "Sweepstakes",
+        "desc": "An organized draw campaign that helps you launch a prize with clarity, converting participation into marketing results.",
+        "meta": {
+          "offers": "Organized draw campaign",
+          "bestFor": "Quick engagement boost"
+        },
+        "details": {
+          "entry": {
+            "icon": "🎫",
+            "title": "Entry Method",
+            "a": "QR code at store/event: links participation to a physical visit",
+            "b": "Participation code: for digital distribution or POS/invoices"
+          },
+          "codeType": {
+            "icon": "🎯",
+            "title": "Code Type (by goal)",
+            "a": "Purchase-linked code: each purchase grants entry (supports sales)",
+            "b": "Task-linked code: follow/review/survey/attend (supports engagement)"
+          },
+          "conditions": {
+            "icon": "📋",
+            "title": "Participation Conditions",
+            "a": "Follow the account/page",
+            "b": "Leave a review or rating",
+            "c": "Send a DM for instructions",
+            "d": "Physical visit via QR scan"
+          },
+          "transparency": {
+            "icon": "🔍",
+            "title": "Transparency (optional)",
+            "a": "Add committee members (figures, influencers)",
+            "b": "Live announcement session or broadcast",
+            "c": "Document results on campaign page"
+          }
+        },
+        "steps": {
+          "s1": "Set campaign name, duration, and prizes",
+          "s2": "Choose entry method (QR or code)",
+          "s3": "Set participation conditions and channel",
+          "s4": "Publish campaign through your channels",
+          "s5": "Close + auto-select winners"
+        }
+      },
+      "contests": {
+        "title": "Contests & Riddles",
+        "desc": "A questions or challenges campaign with recurring participation that builds ongoing engagement instead of one-time interaction.",
+        "meta": {
+          "offers": "Questions/challenges campaign",
+          "bestFor": "Sustained ongoing engagement"
+        },
+        "details": {
+          "entry": {
+            "icon": "❓",
+            "title": "Question Types",
+            "a": "Product-related questions: build brand awareness",
+            "b": "General knowledge: attract wider audience"
+          },
+          "codeType": {
+            "icon": "🏆",
+            "title": "Scoring & Prizes",
+            "a": "Points per correct answer",
+            "b": "Leaderboard rankings"
+          },
+          "conditions": {
+            "icon": "📋",
+            "title": "Participation Flow",
+            "a": "Answer questions within time limit",
+            "b": "Track progress on leaderboard",
+            "c": "Winners announced at campaign end"
+          },
+          "transparency": {
+            "icon": "🔍",
+            "title": "Transparency",
+            "a": "Correct answers shown after each round",
+            "b": "Live leaderboard visible to all",
+            "c": "Clear scoring rules published upfront"
+          }
+        },
+        "steps": {
+          "s1": "Create question bank and set difficulty",
+          "s2": "Set schedule and prize tiers",
+          "s3": "Configure scoring and leaderboard",
+          "s4": "Launch and promote across channels",
+          "s5": "Close + announce winners by score"
+        }
+      },
+      "predictions": {
+        "title": "Predictions",
+        "desc": "Link your brand to exciting events with automated predictions that drive massive audience engagement.",
+        "meta": {
+          "offers": "Event prediction campaign",
+          "bestFor": "Event-driven engagement"
+        },
+        "details": {
+          "entry": {
+            "icon": "🔮",
+            "title": "Prediction Types",
+            "a": "Match result predictions (sports)",
+            "b": "Event outcome predictions (shows, awards)"
+          },
+          "codeType": {
+            "icon": "🎯",
+            "title": "Scoring Method",
+            "a": "Exact result match: highest points",
+            "b": "Partial match: partial points"
+          },
+          "conditions": {
+            "icon": "📋",
+            "title": "Participation Flow",
+            "a": "Submit prediction before event deadline",
+            "b": "Results auto-calculated after event",
+            "c": "Winners ranked by accuracy"
+          },
+          "transparency": {
+            "icon": "🔍",
+            "title": "Transparency",
+            "a": "All predictions locked before event",
+            "b": "Results verified against official sources",
+            "c": "Rankings visible to all participants"
+          }
+        },
+        "steps": {
+          "s1": "Choose event and set prediction options",
+          "s2": "Set deadline and prize structure",
+          "s3": "Open predictions to audience",
+          "s4": "Auto-score after event results",
+          "s5": "Announce winners and distribute prizes"
+        }
+      }
+    },
+    "channels": {
+      "tag": "Interaction Channels",
+      "title": "Smart Ways to Direct Engagement",
+      "subtitle": "MazayaGo isn't just a campaign page — it's a way to convert engagement into meaningful steps for your business",
+      "comments": {
+        "icon": "💬",
+        "title": "Comments",
+        "desc": "Visible engagement that increases reach and encourages others to participate"
+      },
+      "dm": {
+        "icon": "🔒",
+        "title": "Direct Messages",
+        "desc": "Higher privacy for customer questions, bookings, prize details, or participation confirmation"
+      },
+      "page": {
+        "icon": "📄",
+        "title": "Campaign Page",
+        "desc": "Organize participation clearly and easily within MazayaGo"
+      },
+      "privacy": "MazayaGo allows campaign providers to choose the right interaction channel: comments, direct messages for privacy, or interaction through the campaign page.",
+      "reviews": {
+        "title": "Reviews & Ratings — The Value of Reputation",
+        "desc": "You can link participation to encouraging your audience to leave reviews and share their experience. The goal: turn campaigns from momentary interaction into buildable reputation."
+      }
+    },
+    "transparency": {
+      "tag": "Transparency & Trust",
+      "title": "How does MazayaGo ensure transparency?",
+      "subtitle": "Transparency is what drives participation and reduces doubt — especially for big prizes",
+      "pillars": {
+        "rules": {
+          "icon": "📜",
+          "title": "Clear Rules",
+          "desc": "Displayed on the campaign page so every participant knows what's expected"
+        },
+        "auto": {
+          "icon": "🤖",
+          "title": "Automatic Selection",
+          "desc": "Winners are selected automatically based on campaign rules with no manual intervention"
+        },
+        "announce": {
+          "icon": "📢",
+          "title": "Clear Announcement",
+          "desc": "Results announced clearly on the campaign page for everyone to see"
+        }
+      },
+      "optional": "Optional",
+      "opts": {
+        "committee": {
+          "title": "Oversight Committee",
+          "desc": "Add representatives or influencers as committee members to boost credibility — especially for joint campaigns or big prizes."
+        },
+        "liveAnnounce": {
+          "title": "Live Announcement",
+          "desc": "Conduct a live results announcement or draw session with committee participation — a powerful feature for showcasing fairness and building trust."
+        }
+      }
+    },
+    "useCases": {
+      "tag": "Use Cases",
+      "title": "How are services used in practice?",
+      "merchants": {
+        "icon": "🏪",
+        "title": "For Merchants & Stores",
+        "a": "Boost sales via purchase-linked codes",
+        "b": "Increase store visits via QR codes",
+        "c": "Build reputation through reviews and ratings"
+      },
+      "brands": {
+        "icon": "🏷️",
+        "title": "For Brands & Service Providers",
+        "a": "Grow followers and engagement via recurring contests",
+        "b": "Convert interest into messages, inquiries, and bookings",
+        "c": "Measure audience engagement with new offers"
+      },
+      "events": {
+        "icon": "🎪",
+        "title": "For Events & Exhibitions",
+        "a": "Boost bookings and attendance",
+        "b": "Predictions tied to event schedules",
+        "c": "Sweepstakes linked to entry or visits"
+      },
+      "partners": {
+        "icon": "🤝",
+        "title": "For Service Partners",
+        "a": "Offer ready-made campaign packages for different clients",
+        "b": "Faster execution and clearer reports",
+        "c": "Enhance partner value through organized campaign experience"
+      }
+    },
+    "faq": {
+      "tag": "FAQ",
+      "title": "Frequently Asked Questions",
+      "purchase": {
+        "q": "Does participation require a purchase?",
+        "a": "No. Campaign providers can link participation to a purchase or make it tied to an interactive task (follow, DM, review, visit...) based on campaign goals."
+      },
+      "winners": {
+        "q": "How are winners selected? Is it automatic?",
+        "a": "Winners are selected automatically based on campaign rules, then results are announced clearly on the campaign page."
+      },
+      "qr": {
+        "q": "Can participation be linked to a physical store visit?",
+        "a": "Yes. Via QR code at the location, scanning can be a participation condition or an extra entry opportunity."
+      },
+      "dm": {
+        "q": "Can DMs be used instead of comments?",
+        "a": "Yes. MazayaGo allows providers to choose the interaction channel: comments, DMs for privacy, or the campaign page."
+      },
+      "reviews": {
+        "q": "Can campaigns be linked to reviews and ratings?",
+        "a": "Yes. Reviews can be part of participation conditions or an extra chance to boost reputation and build customer trust."
+      },
+      "committee": {
+        "q": "Can a committee or influencers be added for transparency?",
+        "a": "Yes. Committee members can be added and participate in result announcements, especially for campaigns with big prizes."
+      },
+      "partner": {
+        "q": "Can a service partner manage campaigns for multiple clients?",
+        "a": "Yes. MazayaGo is designed for partners to manage multiple campaigns and deliver a unified, repeatable experience across different clients."
+      },
+      "start": {
+        "q": "What do I need to get started?",
+        "a": "A clear campaign idea + suitable prize + distribution channel. Then choose the service and set the rules — the platform handles organizing participation, selecting winners, and announcing results."
+      }
+    },
+    "finalCta": {
+      "title": "Start Now with MazayaGo",
+      "partner": {
+        "label": "For Service Partners",
+        "title": "Offer your clients an organized interactive campaign that showcases your value",
+        "desc": "Convert engagement into measurable results — clearer reports, faster execution, and higher value.",
+        "cta": "Request Partner Trial"
+      },
+      "provider": {
+        "label": "For Campaign Providers",
+        "title": "Launch an interactive marketing campaign that boosts engagement and builds trust",
+        "desc": "Convert interest into customers — sweepstakes, contests, or predictions in simple steps.",
+        "cta": "Start a Campaign"
+      }
+    }
+  },
+  "MePage": {
+    "hero": {
+      "badge": "Member dashboard",
+      "completeProfile": "Complete your profile to unlock all tools.",
+      "editProfile": "Edit profile",
+      "createChallenge": "Create challenge"
+    },
+    "stats": {
+      "challenges": "Challenges"
+    },
+    "challenges": {
+      "title": "Challenges",
+      "viewAll": "View all",
+      "untitled": "Untitled offer",
+      "fallbackType": "Experience",
+      "started": "Started",
+      "statusDraft": "DRAFT",
+      "manage": "Manage",
+      "analytics": "Analytics",
+      "empty": "No offers yet. Launch a campaign to reward your community.",
+      "createFirst": "Create your first challenge"
+    },
+    "fallbacks": {
+      "accountName": "My account"
+    }
+  },
+  "ProfilePage": {
+    "sections": {
+      "profileSettings": "Profile settings",
+      "businesses": "Business profiles"
+    },
+    "status": {
+      "active": "Active",
+      "paused": "Paused",
+      "suspended": "Suspended",
+      "unknown": "Unknown"
+    },
+    "avatar": {
+      "ariaLabel": "Change profile photo",
+      "alt": "Profile photo",
+      "uploading": "Uploading...",
+      "change": "Change"
+    },
+    "settings": {
+      "photo": {
+        "updated": "Profile photo updated.",
+        "title": "Profile photo",
+        "helper": "Use a clear square image to keep your account identity consistent."
+      },
+      "fields": {
+        "fullName": {
+          "label": "Full name",
+          "placeholder": "Enter your full name"
+        },
+        "displayName": {
+          "label": "Display name",
+          "helper": "Shown publicly with your activities.",
+          "placeholder": "Choose a display name"
+        },
+        "phone": {
+          "label": "Phone",
+          "placeholder": "Add a contact number"
+        },
+        "country": {
+          "label": "Country",
+          "placeholder": "Select country"
+        },
+        "city": {
+          "label": "City",
+          "placeholder": "Select city"
+        },
+        "email": {
+          "label": "Email",
+          "helper": "Email is managed from sign-in methods.",
+          "notSet": "Not set"
+        }
+      },
+      "messages": {
+        "saveFailed": "Could not save profile settings.",
+        "saveSuccess": "Profile settings saved.",
+        "genericError": "Something went wrong. Please try again."
+      },
+      "actions": {
+        "saving": "Saving...",
+        "save": "Save changes"
+      }
+    },
+    "businesses": {
+      "header": {
+        "eyebrow": "Business manager",
+        "subtitle": "Create and manage brand profiles linked to your account.",
+        "new": "New business"
+      },
+      "list": {
+        "untitled": "Untitled business",
+        "noContact": "No contact details",
+        "open": "Open website",
+        "edit": "Edit",
+        "deleting": "Deleting...",
+        "delete": "Delete",
+        "empty": "No business profiles yet. Create one to keep your brand presence consistent."
+      },
+      "form": {
+        "editEyebrow": "Edit business",
+        "createEyebrow": "New business",
+        "editSubtitle": "Update this business profile details.",
+        "createSubtitle": "Add a business profile for your brand.",
+        "close": "Close",
+        "name": {
+          "label": "Business name",
+          "placeholder": "Business or brand name"
+        },
+        "website": {
+          "label": "Website",
+          "placeholder": "https://example.com"
+        },
+        "phone": {
+          "label": "Phone",
+          "placeholder": "+967..."
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "name@domain.com"
+        },
+        "avatar": "Logo / avatar",
+        "social": {
+          "title": "Social links",
+          "instagram": "Instagram",
+          "facebook": "Facebook",
+          "x": "X",
+          "tiktok": "TikTok",
+          "youtube": "YouTube",
+          "linkedin": "LinkedIn",
+          "telegram": "Telegram",
+          "snapchat": "Snapchat",
+          "whatsapp": {
+            "label": "WhatsApp",
+            "placeholder": "+967...",
+            "helper": "Digits only or international format."
+          }
+        },
+        "actions": {
+          "saving": "Saving...",
+          "save": "Save",
+          "create": "Create business"
+        }
+      },
+      "notices": {
+        "nameRequired": "Business name is required.",
+        "saveFailed": "Could not save business profile.",
+        "updated": "Business profile updated.",
+        "created": "Business profile created.",
+        "genericError": "Something went wrong. Please try again.",
+        "confirmDelete": "Delete this business profile?",
+        "deleteFailed": "Could not delete business profile.",
+        "deleted": "Business profile deleted."
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "rateverse-ui",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "npm run check:merge-markers && next build",
+    "start": "next start -p $PORT",
+    "check:merge-markers": "node scripts/check-merge-markers.js"
+  },
+  "engines": {
+    "node": ">=20 <21"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "3.906.0",
+    "@aws-sdk/s3-request-presigner": "3.906.0",
+    "cloudinary": "2.7.0",
+    "jspdf": "2.5.2",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.544.0",
+    "next": "14.2.5",
+    "next-intl": "3.26.5",
+    "ngeohash": "0.6.3",
+    "pg": "8.16.3",
+    "qrcode": "^1.5.4",
+    "qrcode.react": "4.2.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-leaflet": "^4.2.1",
+    "swr": "^2.2.5",
+    "zod": "^4.1.11"
+  },
+  "devDependencies": {
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "@tailwindcss/typography": "^0.5.19",
+    "@types/node": "^20.11.19",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5.4.5"
+  }
+}

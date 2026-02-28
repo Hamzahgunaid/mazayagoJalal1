@@ -1,0 +1,46 @@
+name: Giveaway Render
+
+on:
+  workflow_dispatch:
+    inputs:
+      drawId:
+        description: Draw ID
+        required: true
+        type: string
+      slug:
+        description: Public slug
+        required: true
+        type: string
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          ffmpeg -version
+
+      - name: Run render action
+        env:
+          DRAW_ID: ${{ github.event.inputs.drawId }}
+          DRAW_SLUG: ${{ github.event.inputs.slug }}
+          R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
+          R2_BUCKET: ${{ secrets.R2_BUCKET }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_PUBLIC_BASE: ${{ secrets.R2_PUBLIC_BASE }}
+          RENDER_CALLBACK_URL: ${{ secrets.RENDER_CALLBACK_URL }}
+          RENDER_CALLBACK_SECRET: ${{ secrets.RENDER_CALLBACK_SECRET }}
+        run: npx tsx scripts/giveaway-render-action.ts

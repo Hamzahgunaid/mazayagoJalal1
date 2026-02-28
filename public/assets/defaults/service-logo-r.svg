@@ -1,0 +1,18 @@
+<!-- /public/assets/defaults/service-logo-r.svg -->
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6D5EF6"/>
+      <stop offset="100%" stop-color="#1EC9D4"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFE082"/>
+      <stop offset="100%" stop-color="#FFB300"/>
+    </linearGradient>
+  </defs>
+  <rect x="12" y="12" width="488" height="488" rx="72" fill="#0f172a"/>
+  <circle cx="256" cy="256" r="168" fill="none" stroke="url(#g1)" stroke-width="20"/>
+  <circle cx="410" cy="220" r="10" fill="url(#g2)"/>
+  <path d="M190 158h98c54 0 82 26 82 66c0 33-18 54-47 62l44 68h-56l-39-60h-36v60h-46V158zm104 92c24 0 36-10 36-26s-12-25-36-25h-58v51h58z"
+        fill="url(#g1)"/>
+</svg>

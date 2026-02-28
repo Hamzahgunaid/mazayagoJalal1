@@ -1,0 +1,18 @@
+<!-- /public/assets/defaults/avatar-r.svg -->
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ga" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6D5EF6"/>
+      <stop offset="100%" stop-color="#1EC9D4"/>
+    </linearGradient>
+    <linearGradient id="gb" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFE082"/>
+      <stop offset="100%" stop-color="#FFB300"/>
+    </linearGradient>
+  </defs>
+  <circle cx="128" cy="128" r="120" fill="#0f172a"/>
+  <circle cx="128" cy="128" r="88" fill="none" stroke="url(#ga)" stroke-width="12"/>
+  <circle cx="196" cy="104" r="6" fill="url(#gb)"/>
+  <path d="M82 86h60c34 0 52 16 52 40c0 20-12 33-30 37l28 44h-36l-26-40h-22v40H82V86zm64 56c15 0 22-6 22-16s-7-16-22-16h-36v32h36z"
+        fill="url(#ga)"/>
+</svg>

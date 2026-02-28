@@ -1,0 +1,1 @@
+export async function GET(){ return new Response('code,tag\n',{headers:{'Content-Type':'text/csv'}}); }
